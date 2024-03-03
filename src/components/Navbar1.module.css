@@ -1,0 +1,167 @@
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+}
+.agmi {
+  margin-bottom: -0.25rem;
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.home {
+  height: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0;
+  box-sizing: border-box;
+}
+.logo1 {
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.divider,
+.dividerLine {
+  height: 5rem;
+  box-sizing: border-box;
+}
+.divider {
+  width: 0.125rem;
+  position: relative;
+  border-right: 2px solid var(--white);
+  opacity: 0.1;
+}
+.dividerLine {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.home1 {
+  position: relative;
+  text-transform: uppercase;
+  text-align: right;
+  cursor: pointer;
+}
+.aboutUs {
+  white-space: nowrap;
+}
+.aboutUs,
+.review,
+.sermon {
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.linksList,
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.linksList {
+  flex: 1;
+  gap: var(--gap-29xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--label-02-size);
+  color: var(--color-gray-300);
+}
+.logo {
+  width: 40.875rem;
+  gap: 0 5.5rem;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: var(--paragraph);
+  color: var(--black);
+  text-align: center;
+}
+.navButton,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-25xl) var(--padding-xl)
+    var(--padding-29xl);
+  background-color: var(--primary);
+  border-radius: var(--br-xs);
+  backdrop-filter: blur(80px);
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.navButton:hover {
+  background-color: var(--color-burlywood);
+}
+.navbar {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 var(--padding-91xl) 0 var(--padding-56xl);
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: right;
+  font-size: var(--heading-h2-size);
+  color: var(--white);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 750px) {
+  .linksList {
+    display: none;
+  }
+  .logo {
+    width: 14.563rem;
+    gap: 0 5.5rem;
+  }
+  .navbar {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .linksList {
+    gap: var(--gap-29xl);
+  }
+  .logo {
+    gap: 0 5.5rem;
+  }
+  .navbar {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

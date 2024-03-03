@@ -1,0 +1,135 @@
+.httpswwwpexelscomphotofIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 93.75rem;
+  height: 46rem;
+  object-fit: cover;
+  display: none;
+}
+.imageOverlay,
+.mainBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.imageOverlay {
+  top: 46rem;
+  right: -93.75rem;
+  background: linear-gradient(109.61deg, #cd5423, #ffd0a0);
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  mix-blend-mode: soft-light;
+  z-index: 1;
+}
+.mainBackground {
+  top: 0;
+  right: 0;
+  background-color: var(--white);
+  backdrop-filter: blur(40px);
+  display: none;
+}
+.bottomLine {
+  position: absolute;
+  top: 29rem;
+  left: 0;
+  background-color: var(--primary);
+  width: 48rem;
+  height: 1rem;
+  z-index: 1;
+}
+.quoteIcon {
+  position: absolute;
+  top: 8.813rem;
+  left: 33.313rem;
+  width: 11.688rem;
+  height: 8.75rem;
+  z-index: 3;
+}
+.loremIpsumDolor,
+.weWantTo {
+  position: absolute;
+  left: 3rem;
+  display: inline-block;
+  z-index: 3;
+}
+.weWantTo {
+  margin: 0;
+  top: 4.5rem;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  width: 23rem;
+}
+.loremIpsumDolor {
+  top: 17.5rem;
+  font-size: var(--paragraph-size);
+  line-height: 1.5rem;
+  color: var(--color-gray-500);
+  width: 18.875rem;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: var(--paragraph);
+  color: var(--black);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-45xl);
+  background-color: var(--primary);
+  position: absolute;
+  top: 21.5rem;
+  left: 4.875rem;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.button:hover {
+  background-color: var(--color-burlywood);
+}
+.testimonialBackground {
+  position: absolute;
+  top: 8rem;
+  left: 22.875rem;
+  background-color: var(--white);
+  backdrop-filter: blur(40px);
+  width: 48rem;
+  height: 30rem;
+  z-index: 2;
+}
+.background {
+  align-self: stretch;
+  height: 46rem;
+  position: relative;
+  background-image: url(/public/httpswwwpexelscomphotofacadeofagedgrandcathedralwithdomeonrivershore5273642@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--heading-h2-size);
+  color: var(--bl);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 750px) {
+  .weWantTo {
+    font-size: var(--font-size-19xl);
+    line-height: 3.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .weWantTo {
+    font-size: var(--font-size-10xl);
+    line-height: 2.375rem;
+  }
+}
