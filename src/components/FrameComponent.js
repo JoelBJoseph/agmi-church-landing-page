@@ -1,48 +1,37 @@
-import { useMemo } from "react";
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./FrameComponent.module.css";
 
-const FrameComponent = ({
-  httpsunsplashcomphotos3Xm,
-  sharedValues,
-  propPadding,
-  propWidth,
-}) => {
-  const frameDivStyle = useMemo(() => {
-    return {
-      padding: propPadding,
-    };
-  }, [propPadding]);
+const FrameComponent = () => {
+  const navigate = useNavigate();
 
-  const sharedValuesStyle = useMemo(() => {
-    return {
-      width: propWidth,
-    };
-  }, [propWidth]);
+  const onButtonClick = useCallback(() => {
+    navigate("/contact");
+  }, [navigate]);
 
   return (
-    <div
-      className={styles.httpsunsplashcomphotos3xParent}
-      style={frameDivStyle}
-    >
-      <img
-        className={styles.httpsunsplashcomphotos3xIcon}
-        loading="lazy"
-        alt=""
-        src={httpsunsplashcomphotos3Xm}
-      />
-      <div className={styles.sharedValuesParent}>
-        <h1 className={styles.sharedValues} style={sharedValuesStyle}>
-          {sharedValues}
+    <section className={styles.backgroundFrame}>
+      <img className={styles.backgroundIcon} alt="" src="/background@2x.png" />
+      <div className={styles.testimonialBackground}>
+        <div className={styles.mainBackground} />
+        <div className={styles.bottomLine} />
+        <img
+          className={styles.quoteIcon}
+          loading="lazy"
+          alt=""
+          src="/quote-icon.svg"
+        />
+        <button className={styles.button} onClick={onButtonClick}>
+          <div className={styles.buttonText}>Visit</div>
+        </button>
+        <h1 className={styles.weWantTo}>
+          We want to serve the world around us
         </h1>
         <div className={styles.loremIpsumDolor}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

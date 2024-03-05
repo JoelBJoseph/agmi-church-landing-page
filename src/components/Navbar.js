@@ -34,8 +34,8 @@ const Navbar = () => {
   }, [navigate]);
 
   return (
-    <div className={styles.navbar}>
-      <header className={styles.background} />
+    <header className={styles.navbar}>
+      <div className={styles.background} />
       <div className={styles.navbarInner}>
         <div className={styles.agmiLogo1Parent}>
           <img
@@ -62,28 +62,24 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className={styles.linksListWrapper}>
-        <div className={styles.linksList}>
-          <div className={styles.dividerParent}>
-            <div className={styles.divider} />
-            <div className={styles.home} onClick={onHomeTextClick}>
-              Home
-            </div>
-          </div>
-          <div className={styles.aboutUsParent}>
-            <h3 className={styles.aboutUs} onClick={onAboutUsText2Click}>
-              About us
-            </h3>
-            <div className={styles.ministry} onClick={onMinistryTextClick}>
-              ministry
-            </div>
-          </div>
+      <div className={styles.linksList}>
+        <div className={styles.dividerParent}>
+          <div className={styles.divider} />
+          <h3 className={styles.home} onClick={onHomeTextClick}>
+            Home
+          </h3>
+        </div>
+        <div className={styles.aboutUs} onClick={onAboutUsText2Click}>
+          About us
+        </div>
+        <div className={styles.ministry} onClick={onMinistryTextClick}>
+          ministry
         </div>
       </div>
       <button className={styles.navButton} onClick={onNavButtonClick}>
         <div className={styles.buttonText}>Contact us</div>
       </button>
-    </div>
+    </header>
   );
 };
 

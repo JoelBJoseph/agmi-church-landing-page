@@ -1,0 +1,184 @@
+.background,
+.joinUsAnd {
+  position: relative;
+  max-width: 100%;
+}
+.joinUsAnd {
+  margin: 0;
+  width: 34.625rem;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.background {
+  width: 27.188rem;
+  height: 32rem;
+  background-color: var(--light-orange);
+  display: none;
+}
+.bibleTraining,
+.reachingEquippingSending {
+  margin: 0;
+  position: relative;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.bibleTraining {
+  width: 17.125rem;
+  font-size: inherit;
+  line-height: 3.5rem;
+}
+.reachingEquippingSending {
+  width: 18.813rem;
+  flex: 1;
+  font-size: var(--heading-h5-size);
+  color: var(--color-dimgray-200);
+}
+.bibleTrainingParent,
+.topBar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bibleTrainingParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 0.75rem 0;
+}
+.topBar {
+  width: 14rem;
+  height: 5.688rem;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) var(--padding-2xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+}
+.comeJoinUs {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-black);
+  text-align: center;
+  z-index: 2;
+}
+.content,
+.imageIcon {
+  height: 32rem;
+  max-width: 100%;
+}
+.content {
+  background-color: var(--light-orange);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-56xl) var(--padding-78xl)
+    var(--padding-40xl);
+  box-sizing: border-box;
+  gap: var(--gap-33xl);
+  min-width: 27.188rem;
+}
+.imageIcon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 34.313rem;
+  min-height: 32rem;
+}
+.contentParent,
+.footerBackground {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.contentParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+}
+.footerBackground {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.063rem 0;
+  text-align: center;
+  font-size: var(--heading-h2-size);
+  color: var(--bl);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1100px) {
+  .content {
+    flex: 1;
+  }
+  .contentParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .joinUsAnd {
+    font-size: var(--font-size-19xl);
+    line-height: 3.188rem;
+  }
+  .bibleTraining {
+    font-size: var(--heading-h4-size);
+    line-height: 2.813rem;
+  }
+  .comeJoinUs {
+    font-size: var(--heading-h5-size);
+    line-height: 0.813rem;
+  }
+  .content {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .content,
+  .imageIcon {
+    min-width: 100%;
+  }
+  .footerBackground {
+    gap: 5.063rem 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .joinUsAnd {
+    font-size: var(--font-size-10xl);
+    line-height: 2.375rem;
+  }
+  .bibleTraining {
+    font-size: var(--heading-h5-size);
+    line-height: 2.125rem;
+  }
+  .reachingEquippingSending {
+    font-size: var(--font-size-lgi);
+  }
+  .comeJoinUs {
+    font-size: var(--label-03-size);
+    line-height: 0.625rem;
+  }
+  .content {
+    gap: var(--gap-33xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footerBackground {
+    gap: 5.063rem 0;
+  }
+}

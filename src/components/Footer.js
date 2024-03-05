@@ -3,178 +3,173 @@ import styles from "./Footer.module.css";
 
 const Footer = ({
   socialWrapper,
-  backgroundShapeTop,
-  inputLeft,
-  inputWidth,
-  buttonLeft,
-  buttonTextLeft,
-  subscribeToGetLeft,
-  socialWrapperIconWidth,
-  socialWrapperIconRight,
-  linksListWidth,
-  linksListRight,
-  copyrightFinsweet2022Width,
-  addressNumberWidth,
-  addressNumberRight,
-  emailnamegmsilcomWidth,
-  emailnamegmsilcomLeft,
-  messageFillIconWidth,
-  messageFillIconLeft,
-  onButtonClick,
-  onSermonsTextClick,
-  onContactTextClick,
+  propPadding,
+  propWidth,
+  propPadding1,
+  propPadding2,
+  propPadding3,
+  propGap,
+  propWidth1,
+  propGap1,
+  propWidth2,
+  propMinWidth,
+  propWidth3,
+  propPadding4,
   onHOMETextClick,
   onAboutUsTextClick,
+  onSermonsTextClick,
+  onContactTextClick,
+  onButton1Click,
 }) => {
   const footerStyle = useMemo(() => {
     return {
-      top: backgroundShapeTop,
+      padding: propPadding,
     };
-  }, [backgroundShapeTop]);
-
-  const subscriptionStyle = useMemo(() => {
-    return {
-      left: inputLeft,
-      width: inputWidth,
-    };
-  }, [inputLeft, inputWidth]);
-
-  const inputStyle = useMemo(() => {
-    return {
-      left: buttonLeft,
-    };
-  }, [buttonLeft]);
-
-  const buttonStyle = useMemo(() => {
-    return {
-      left: buttonTextLeft,
-    };
-  }, [buttonTextLeft]);
-
-  const yourmailgmailcomStyle = useMemo(() => {
-    return {
-      left: subscribeToGetLeft,
-    };
-  }, [subscribeToGetLeft]);
-
-  const connectStyle = useMemo(() => {
-    return {
-      width: socialWrapperIconWidth,
-      right: socialWrapperIconRight,
-    };
-  }, [socialWrapperIconWidth, socialWrapperIconRight]);
-
-  const linksColumnStyle = useMemo(() => {
-    return {
-      width: linksListWidth,
-      right: linksListRight,
-    };
-  }, [linksListWidth, linksListRight]);
+  }, [propPadding]);
 
   const contentLeftStyle = useMemo(() => {
     return {
-      width: copyrightFinsweet2022Width,
+      width: propWidth,
     };
-  }, [copyrightFinsweet2022Width]);
+  }, [propWidth]);
 
-  const contentLeft1Style = useMemo(() => {
+  const frameDivStyle = useMemo(() => {
     return {
-      width: addressNumberWidth,
-      right: addressNumberRight,
+      padding: propPadding1,
     };
-  }, [addressNumberWidth, addressNumberRight]);
+  }, [propPadding1]);
+
+  const messageButtonBStyle = useMemo(() => {
+    return {
+      padding: propPadding2,
+    };
+  }, [propPadding2]);
+
+  const footer1Style = useMemo(() => {
+    return {
+      padding: propPadding3,
+    };
+  }, [propPadding3]);
 
   const groupDivStyle = useMemo(() => {
     return {
-      width: emailnamegmsilcomWidth,
-      left: emailnamegmsilcomLeft,
+      gap: propGap,
     };
-  }, [emailnamegmsilcomWidth, emailnamegmsilcomLeft]);
+  }, [propGap]);
 
-  const emailnamegmsilcomStyle = useMemo(() => {
+  const socialWrapperStyle = useMemo(() => {
     return {
-      width: messageFillIconWidth,
-      left: messageFillIconLeft,
+      width: propWidth1,
+      gap: propGap1,
     };
-  }, [messageFillIconWidth, messageFillIconLeft]);
+  }, [propWidth1, propGap1]);
+
+  const linksColumnStyle = useMemo(() => {
+    return {
+      width: propWidth2,
+      minWidth: propMinWidth,
+    };
+  }, [propWidth2, propMinWidth]);
+
+  const subscribeToGetStyle = useMemo(() => {
+    return {
+      width: propWidth3,
+    };
+  }, [propWidth3]);
+
+  const inputStyle = useMemo(() => {
+    return {
+      padding: propPadding4,
+    };
+  }, [propPadding4]);
 
   return (
     <footer className={styles.footer} style={footerStyle}>
       <div className={styles.backgroundShape} />
-      <div className={styles.subscription} style={subscriptionStyle}>
-        <div className={styles.input} style={inputStyle}>
-          <button
-            className={styles.button}
-            onClick={onButtonClick}
-            style={buttonStyle}
-          >
-            <div className={styles.buttonText}>Subscribe</div>
-          </button>
-          <div className={styles.background} />
-          <div
-            className={styles.yourmailgmailcom}
-            style={yourmailgmailcomStyle}
-          >
-            Yourmail@gmail.com
-          </div>
-        </div>
-        <h1 className={styles.subscribeToGet}>
-          Subscribe to get Latest Updates and News
-        </h1>
-      </div>
-      <div className={styles.connect} style={connectStyle}>
-        <img
-          className={styles.socialWrapperIcon}
-          loading="lazy"
-          alt=""
-          src={socialWrapper}
-        />
-        <div className={styles.connect1}>{`Connect `}</div>
-      </div>
-      <div className={styles.linksColumn} style={linksColumnStyle}>
-        <div className={styles.linksList}>
-          <div className={styles.sermons} onClick={onSermonsTextClick}>
-            Sermons
-          </div>
-          <div className={styles.contact} onClick={onContactTextClick}>
-            contact
-          </div>
-          <div className={styles.home} onClick={onHOMETextClick}>
-            HOME
-          </div>
-          <div className={styles.aboutUs} onClick={onAboutUsTextClick}>
-            About us
-          </div>
-        </div>
-        <div className={styles.quicklinks}>Quicklinks</div>
-      </div>
       <div className={styles.contentLeft} style={contentLeftStyle}>
-        <div className={styles.copyrightFinsweet2022}>
-          © Copyright Finsweet 2022
-        </div>
-        <div className={styles.logo}>
-          <h1 className={styles.agmi}>AGMI</h1>
-        </div>
-      </div>
-      <div className={styles.contentLeft1} style={contentLeft1Style}>
-        <div className={styles.addressNumber}>
-          <div className={styles.pOBox37Container}>
-            <p className={styles.pOBox37}>P. O. Box-37,</p>
-            <p className={styles.perumbavoorPO}>Perumbavoor. P. O.</p>
-            <p className={styles.kochiErnakulam}>{`Kochi - Ernakulam, `}</p>
-            <p className={styles.kerala683642India}>Kerala-683642, India</p>
+        <div className={styles.contentLeft1}>
+          <div className={styles.logoWrapper} style={frameDivStyle}>
+            <div className={styles.logo}>
+              <div className={styles.getInTouchWithUs}>
+                <h1 className={styles.agmi}>AGMI</h1>
+              </div>
+            </div>
           </div>
-          <div className={styles.ph9194466}>Ph: +91 94466 36378</div>
+          <div className={styles.copyrightAgmi2024}>© Copyright agmi 2024</div>
+        </div>
+        <div className={styles.messageButtonB} style={messageButtonBStyle}>
+          <div className={styles.contentLeft2}>
+            <div className={styles.addressNumber}>
+              <div className={styles.ph9194466}>Ph: +91 94466 36378</div>
+              <div className={styles.pOBox37Container}>
+                <p className={styles.pOBox37}>P. O. Box-37,</p>
+                <p className={styles.perumbavoorPO}>Perumbavoor. P. O.</p>
+                <p className={styles.kochiErnakulam}>{`Kochi - Ernakulam, `}</p>
+                <p className={styles.kerala683642India}>Kerala-683642, India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.footer1} style={footer1Style}>
+          <div className={styles.quicklinksParent} style={groupDivStyle}>
+            <div className={styles.quicklinks}>
+              <img
+                className={styles.messageFillIcon}
+                loading="lazy"
+                alt=""
+                src="/message-fill@2x.png"
+              />
+            </div>
+            <div className={styles.agmicarmelgmailcomagmiingmailc}>
+              <div className={styles.agmicarmelgmailcom}>
+                agmicarmel@gmail.com
+              </div>
+              <div className={styles.agmiingmailcom}>agmi.in@gmail.com</div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className={styles.emailnamegmsilcomParent} style={groupDivStyle}>
-        <div
-          className={styles.emailnamegmsilcom}
-          style={emailnamegmsilcomStyle}
-        >
-          emailname@gmsil.com
+      <div className={styles.socialWrapper} style={socialWrapperStyle}>
+        <div className={styles.linksColumn} style={linksColumnStyle}>
+          <div className={styles.linksColumn1}>
+            <div className={styles.quicklinks1}>Quicklinks</div>
+            <div className={styles.linksList}>
+              <div className={styles.home} onClick={onHOMETextClick}>
+                HOME
+              </div>
+              <div className={styles.aboutUs} onClick={onAboutUsTextClick}>
+                About us
+              </div>
+              <div className={styles.sermons} onClick={onSermonsTextClick}>
+                Sermons
+              </div>
+              <div className={styles.contact} onClick={onContactTextClick}>
+                contact
+              </div>
+            </div>
+          </div>
+          <div className={styles.connect}>
+            <div className={styles.connect1}>{`Connect `}</div>
+            <img
+              className={styles.socialWrapperIcon}
+              loading="lazy"
+              alt=""
+              src={socialWrapper}
+            />
+          </div>
         </div>
-        <img className={styles.messageFillIcon} loading="lazy" alt="" />
+        <div className={styles.subscription}>
+          <h1 className={styles.subscribeToGet} style={subscribeToGetStyle}>
+            Subscribe to get Latest Updates and News
+          </h1>
+          <div className={styles.input} style={inputStyle}>
+            <div className={styles.yourmailgmailcom}>Yourmail@gmail.com</div>
+            <div className={styles.background} />
+            <button className={styles.button} onClick={onButton1Click}>
+              <div className={styles.buttonText}>Subscribe</div>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
   );

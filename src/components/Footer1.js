@@ -28,20 +28,20 @@ const Footer1 = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.backgroundShape} />
-      <div className={styles.contentLeftParent}>
+      <div className={styles.frameHeaderContent}>
         <div className={styles.contentLeft}>
           <div className={styles.logo}>
-            <div className={styles.agmiWrapper}>
+            <div className={styles.frameAgmi}>
               <h1 className={styles.agmi}>AGMI</h1>
             </div>
           </div>
-          <div className={styles.copyrightFinsweet2022Wrapper}>
-            <div className={styles.copyrightFinsweet2022}>
-              © Copyright Finsweet 2022
+          <div className={styles.contentLeftFrame}>
+            <div className={styles.copyrightAgmi2024}>
+              © Copyright Finsweet 2024
             </div>
           </div>
         </div>
-        <div className={styles.contentLeftWrapper}>
+        <div className={styles.connectFrame}>
           <div className={styles.contentLeft1}>
             <div className={styles.addressNumber}>
               <div className={styles.ph9194466}>Ph: +91 94466 36378</div>
@@ -54,21 +54,28 @@ const Footer1 = () => {
             </div>
           </div>
         </div>
-        <div className={styles.frameWrapper}>
-          <div className={styles.messageFillParent}>
-            <img
-              className={styles.messageFillIcon}
-              loading="lazy"
-              alt=""
-              src="/message-fill@2x.png"
-            />
-            <div className={styles.emailnamegmsilcom}>emailname@gmsil.com</div>
+        <div className={styles.footerContent}>
+          <div className={styles.frameParent}>
+            <div className={styles.messageFillWrapper}>
+              <img
+                className={styles.messageFillIcon}
+                loading="lazy"
+                alt=""
+                src="/message-fill@2x.png"
+              />
+            </div>
+            <div className={styles.socialFrame}>
+              <div className={styles.agmicarmelgmailcom}>
+                agmicarmel@gmail.com
+              </div>
+              <div className={styles.agmiingmailcom}>agmi.in@gmail.com</div>
+            </div>
           </div>
         </div>
       </div>
-      <div className={styles.frameParent}>
-        <div className={styles.linksColumnParent}>
-          <div className={styles.linksColumn}>
+      <div className={styles.linksColumn}>
+        <div className={styles.subscriptionArea}>
+          <div className={styles.linksColumn1}>
             <div className={styles.quicklinks}>Quicklinks</div>
             <div className={styles.linksList}>
               <div className={styles.home} onClick={onHOMETextClick}>

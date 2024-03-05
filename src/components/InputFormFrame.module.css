@@ -1,0 +1,290 @@
+.contactUs {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.dividerLine,
+.input,
+.input1,
+.input2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.dividerLine {
+  width: 31.938rem;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs);
+  max-width: 100%;
+}
+.input,
+.input1,
+.input2 {
+  border: 0;
+  outline: 0;
+  background-color: var(--white);
+  align-self: stretch;
+  height: 4rem;
+  border-radius: var(--br-9xs);
+  align-items: center;
+  padding: var(--padding-xl);
+  color: var(--bl);
+  min-width: 15.625rem;
+}
+.input,
+.input1 {
+  font-family: var(--paragraph);
+  font-size: var(--paragraph-size);
+}
+.input2 {
+  width: 100%;
+}
+.buttonText,
+.input2,
+.input3 {
+  font-size: var(--paragraph-size);
+  font-family: var(--paragraph);
+}
+.input3 {
+  border: 0;
+  background-color: var(--white);
+  height: 7.5rem;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  color: var(--bl);
+}
+.buttonText {
+  position: relative;
+  line-height: 1rem;
+  text-transform: uppercase;
+  color: var(--black);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl);
+  background-color: var(--primary);
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-burlywood);
+}
+.contactUsFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.75rem 0;
+  min-width: 25.375rem;
+  max-width: 100%;
+}
+.address {
+  position: relative;
+}
+.kerala683642India,
+.kochiErnakulam,
+.pOBox37,
+.perumbavoorPO {
+  margin: 0;
+}
+.pOBox37Container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: var(--heading-h5-size);
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--bl);
+}
+.queryRelatedInput {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem 0;
+}
+.contactDetails {
+  position: relative;
+  font-size: var(--paragraph-size);
+  line-height: 1.5rem;
+  color: var(--color-gray-200);
+}
+.agmicarmelgmailcom,
+.ph9194466 {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.ph9194466 {
+  align-self: stretch;
+  text-transform: uppercase;
+}
+.agmicarmelgmailcom {
+  margin: 0;
+  font-size: inherit;
+  text-transform: lowercase;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.instafillComponent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem 0;
+  font-size: var(--heading-h5-size);
+  color: var(--bl);
+}
+.findUsHere {
+  position: relative;
+  line-height: 1.5rem;
+}
+.facebookNegative,
+.twitterNegative {
+  height: 1.625rem;
+  width: 1.563rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.twitterNegative {
+  width: 1.625rem;
+}
+.instaFillIcon {
+  height: 1.688rem;
+  width: 1.688rem;
+  position: relative;
+  object-fit: cover;
+  min-height: 1.688rem;
+}
+.instagramComponent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+}
+.socialFrames {
+  width: 8.813rem;
+  gap: 0.5rem 0;
+  font-size: var(--paragraph-size);
+}
+.emailInput,
+.messageButtonB,
+.socialFrames {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailInput {
+  align-self: stretch;
+  flex: 1;
+  gap: 1.938rem 0;
+}
+.messageButtonB {
+  height: 23.063rem;
+  width: 18.75rem;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  min-width: 18.75rem;
+}
+.contactFrame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 8.375rem;
+  font-size: var(--label-03-size);
+  color: var(--color-gray-200);
+}
+.contactFrame,
+.inputFormFrame,
+.linksListAboutUs {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.linksListAboutUs {
+  width: 66.125rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem 0;
+}
+.inputFormFrame {
+  width: 79.125rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-119xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-h5-size);
+  color: var(--dark);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1100px) {
+  .messageButtonB {
+    flex: 1;
+  }
+  .contactFrame {
+    flex-wrap: wrap;
+    gap: 0 8.375rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contactUsFrame {
+    min-width: 100%;
+  }
+  .contactFrame {
+    gap: 0 8.375rem;
+  }
+  .linksListAboutUs {
+    gap: 2rem 0;
+  }
+  .inputFormFrame {
+    padding-bottom: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .agmicarmelgmailcom,
+  .contactUs,
+  .pOBox37Container,
+  .ph9194466 {
+    font-size: var(--font-size-lgi);
+  }
+  .emailInput {
+    gap: 1.938rem 0;
+  }
+  .contactFrame {
+    gap: 0 8.375rem;
+  }
+}

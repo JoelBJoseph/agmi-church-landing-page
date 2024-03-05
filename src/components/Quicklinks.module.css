@@ -1,0 +1,203 @@
+.background {
+  width: 27.188rem;
+  height: 32rem;
+  position: relative;
+  background-color: var(--light-orange);
+  display: none;
+  max-width: 100%;
+}
+.kidsEvangelism,
+.letTheLittle {
+  position: relative;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+}
+.kidsEvangelism {
+  margin: 0;
+  width: 19.063rem;
+  font-size: inherit;
+  line-height: 3.5rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.letTheLittle {
+  width: 21.625rem;
+  height: 5.75rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  gap: 1rem 0;
+}
+.line {
+  position: absolute;
+  top: 1.188rem;
+  right: 0.625rem;
+  border-right: 1.5px solid var(--bl);
+  box-sizing: border-box;
+  width: 0.063rem;
+  height: 0.375rem;
+}
+.circle,
+.icon1 {
+  width: 1.25rem;
+  z-index: 1;
+}
+.circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: var(--br-smi);
+  border: 1.5px solid var(--bl);
+  box-sizing: border-box;
+  height: 1.25rem;
+}
+.icon1 {
+  height: 1.563rem;
+  position: relative;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.kerala683642India,
+.kochiErnakulam,
+.pOBox37,
+.perumbavoorPO {
+  margin: 0;
+}
+.pOBox37Container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.contentInner,
+.iconParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconParent {
+  align-self: stretch;
+  flex: 1;
+  gap: 0 1rem;
+}
+.contentInner {
+  width: 14rem;
+  height: 4rem;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+}
+.comeJoinUs {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-black);
+  text-align: center;
+  z-index: 2;
+}
+.content {
+  background-color: var(--light-orange);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-67xl) var(--padding-11xl) var(--padding-77xl)
+    var(--padding-40xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 27.188rem;
+  max-width: 100%;
+  z-index: 1;
+}
+.imageIcon {
+  height: 32rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 34.313rem;
+  margin-left: -0.062rem;
+}
+.quicklinks {
+  width: 82.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  row-gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-h3-size);
+  color: var(--bl);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1100px) {
+  .content {
+    flex: 1;
+  }
+  .imageIcon {
+    margin-left: 0;
+  }
+  .quicklinks {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .kidsEvangelism {
+    font-size: var(--heading-h4-size);
+    line-height: 2.813rem;
+  }
+  .comeJoinUs {
+    font-size: var(--heading-h5-size);
+    line-height: 0.813rem;
+  }
+  .content {
+    padding-top: var(--padding-37xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+  .content,
+  .imageIcon {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kidsEvangelism {
+    font-size: var(--heading-h5-size);
+    line-height: 2.125rem;
+  }
+  .letTheLittle {
+    font-size: var(--paragraph-size);
+  }
+  .comeJoinUs {
+    font-size: var(--label-03-size);
+    line-height: 0.625rem;
+  }
+  .content {
+    gap: var(--gap-21xl);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,61 @@
+.circleShape {
+  position: absolute;
+  top: 1.188rem;
+  right: 0.594rem;
+  border-right: 1.5px solid var(--bl);
+  box-sizing: border-box;
+  width: 0.094rem;
+  height: 0.469rem;
+}
+.circle,
+.icon {
+  width: 1.25rem;
+  z-index: 1;
+}
+.circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: var(--br-smi);
+  border: 1.5px solid var(--bl);
+  box-sizing: border-box;
+  height: 1.25rem;
+}
+.icon {
+  height: 1.563rem;
+  position: relative;
+}
+.backgroundShape {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.globalAcademy,
+.kerala683642India,
+.kochiErnakulam,
+.pOBox37,
+.perumbavoorPO {
+  margin: 0;
+}
+.globalAcademyPContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.iconWithText {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 1rem;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--bl);
+  font-family: var(--paragraph);
+}
