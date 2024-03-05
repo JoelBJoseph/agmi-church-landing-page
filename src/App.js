@@ -6,9 +6,9 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home1";
-import AboutUs from "./pages/AboutUs1";
 import Contact from "./pages/Contact";
 import Sermons from "./pages/Sermons";
+import AboutUs from "./pages/AboutUs1";
 
 function App() {
   const action = useNavigationType();
@@ -30,15 +30,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/about-us":
-        title = "";
-        metaDescription = "";
-        break;
       case "/contact":
         title = "";
         metaDescription = "";
         break;
       case "/sermons":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/about-us":
         title = "";
         metaDescription = "";
         break;
@@ -61,9 +61,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about-us" element={<AboutUs />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/sermons" element={<Sermons />} />
+      <Route path="/about-us" element={<AboutUs />} />
     </Routes>
   );
 }

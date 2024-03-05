@@ -48,7 +48,7 @@ const WhatDoWeDo = () => {
       </div>
       <div className={styles.heading}>
         <h1 className={styles.heading1}>a church that's relevant</h1>
-        <div className={styles.subtext}>sub-headline</div>
+        <div className={styles.headerImage}>sub-headline</div>
       </div>
     </section>
   );

@@ -1,0 +1,113 @@
+.background {
+  width: 18.875rem;
+  height: 22.875rem;
+  position: relative;
+  background-color: var(--grey);
+  display: none;
+}
+.httpswwwpexelscomphotopIcon {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.105);
+}
+.wrapperHttpswwwpexelscom {
+  height: 9.5rem;
+  width: 9.5rem;
+  position: relative;
+  border-radius: var(--br-187xl);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperHttpswwwpexelscomWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+}
+.jancyCarmel {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.agmiSecretary {
+  position: relative;
+  line-height: 1.5rem;
+  z-index: 1;
+}
+.facebookNegative,
+.linkedinNegative,
+.twitterNegative {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1rem;
+  z-index: 1;
+}
+.facebookNegativeParent {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi);
+  gap: 0 1.25rem;
+}
+.agmiSecretaryParent,
+.facebookNegativeParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.agmiSecretaryParent {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem 0;
+}
+.frameWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  font-size: var(--label-02-size);
+  color: var(--color-gray-500);
+}
+.item,
+.jancyCarmelParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jancyCarmelParent {
+  gap: 0.5rem 0;
+}
+.item {
+  background-color: var(--grey);
+  padding: var(--padding-29xl) var(--padding-54xl) var(--padding-29xl)
+    var(--padding-56xl);
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--heading-h5-size);
+  color: var(--black1);
+  font-family: var(--label-02);
+}
+@media screen and (max-width: 450px) {
+  .jancyCarmel {
+    font-size: var(--font-size-lgi);
+  }
+  .item {
+    padding: var(--padding-12xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

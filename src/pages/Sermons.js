@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import Footer1 from "../components/Footer1";
+import Footer from "../components/Footer";
 import Item31 from "../components/Item31";
 import styles from "./Sermons.module.css";
 
@@ -57,8 +57,25 @@ const Sermons = () => {
 
   return (
     <div className={styles.sermons}>
-      <Footer1
+      <Footer
         socialWrapper="/social-wrapper@2x.png"
+        backgroundShapeTop="255.875rem"
+        inputLeft="calc(50% + 128px)"
+        inputWidth="32rem"
+        buttonLeft="calc(50% - 256px)"
+        buttonTextLeft="calc(50% + 55px)"
+        subscribeToGetLeft="3.91%"
+        socialWrapperIconWidth="5.87%"
+        socialWrapperIconRight="49.13%"
+        linksListWidth="4.4%"
+        linksListRight="59.8%"
+        copyrightFinsweet2022Width="10.875rem"
+        addressNumberWidth="7.4%"
+        addressNumberRight="85%"
+        emailnamegmsilcomWidth="11%"
+        emailnamegmsilcomLeft="7.6%"
+        messageFillIconWidth="82.42%"
+        messageFillIconLeft="17.58%"
         onButtonClick={onButtonClick}
         onSermonsTextClick={onSermonsTextClick}
         onContactTextClick={onContactTextClick}

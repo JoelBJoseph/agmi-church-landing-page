@@ -1,0 +1,244 @@
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+}
+.agmiLogo1Icon {
+  height: 3.75rem;
+  width: 3.188rem;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.agmi {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 2.063rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.logo,
+.logoWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-12xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.logoWrapper {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+}
+.abundantGraceMinistries {
+  position: relative;
+  font-size: var(--label-02-size);
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.625rem 0;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.agmiLogo1Parent,
+.frameWrapper,
+.navbarInner {
+  display: flex;
+  justify-content: flex-start;
+}
+.agmiLogo1Parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 2.125rem;
+}
+.navbarInner {
+  width: 20.313rem;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider,
+.home {
+  position: relative;
+}
+.divider {
+  align-self: stretch;
+  width: 0;
+  opacity: 0.1;
+}
+.home {
+  flex: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.dividerParent {
+  align-self: stretch;
+  width: 4.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.aboutUs,
+.ministry {
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.aboutUs {
+  margin: 0;
+  font-size: inherit;
+  text-decoration: underline;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.ministry {
+  flex: 1;
+  font-size: var(--label-02-size);
+}
+.aboutUsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  gap: 0 1.125rem;
+  text-align: left;
+  font-size: var(--heading-h5-size);
+}
+.linksList,
+.linksListWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.linksList {
+  width: 23.063rem;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-40xl);
+  z-index: 1;
+}
+.linksListWrapper {
+  align-self: stretch;
+  width: 25.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: right;
+  font-size: var(--label-02-size);
+  color: var(--color-gray-300);
+}
+.buttonText {
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: var(--label-02);
+  color: var(--black);
+  text-align: center;
+}
+.navButton,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-26xl) var(--padding-xl)
+    var(--padding-29xl);
+  background-color: var(--primary);
+  border-radius: var(--br-xs);
+  backdrop-filter: blur(80px);
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.navButton:hover {
+  background-color: var(--color-burlywood);
+}
+.navbar {
+  align-self: stretch;
+  height: 5rem;
+  justify-content: space-between;
+  padding: 0 var(--padding-90xl) 0 var(--padding-103xl);
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--heading-h4-size);
+  color: var(--white);
+  font-family: var(--label-02);
+}
+@media screen and (max-width: 1100px) {
+  .abundantGraceMinistries {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .agmi {
+    font-size: var(--font-size-7xl);
+    line-height: 2.188rem;
+  }
+  .navbar {
+    padding-left: var(--padding-42xl);
+    padding-right: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .agmi {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .agmiLogo1Parent {
+    gap: 0 2.125rem;
+  }
+  .linksList {
+    gap: var(--gap-40xl);
+  }
+  .navbar {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

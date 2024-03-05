@@ -1,40 +1,26 @@
-.httpswwwpexelscomphotofIcon {
+.backgroundIcon {
   position: absolute;
   top: 0;
   right: 0;
-  width: 93.75rem;
+  width: 93.938rem;
   height: 46rem;
   object-fit: cover;
 }
-.background,
-.imageOverlay,
 .mainBackground {
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 100%;
-}
-.imageOverlay {
-  right: -93.75rem;
-  background: linear-gradient(109.61deg, #cd5423, #ffd0a0);
-  transform: rotate(180deg);
-  transform-origin: 0 0;
-  mix-blend-mode: soft-light;
-}
-.background,
-.mainBackground {
   right: 0;
-}
-.mainBackground {
   background-color: var(--white);
   backdrop-filter: blur(40px);
+  width: 100%;
+  height: 100%;
 }
 .bottomLine {
   position: absolute;
   top: 29rem;
   left: 0;
   background-color: var(--primary);
-  width: 48rem;
+  width: 48.094rem;
   height: 1rem;
 }
 .testimonialBackground {
@@ -48,7 +34,7 @@
   position: absolute;
   top: 10.625rem;
   right: 3rem;
-  width: 11.688rem;
+  width: 11.713rem;
   height: 8.75rem;
 }
 .buttonText {
@@ -67,7 +53,7 @@
   background-color: var(--primary);
   position: absolute;
   top: calc(50% + 104px);
-  left: calc(50% - 184px);
+  left: calc(50% - 174.15px);
   border-radius: var(--br-xs);
   display: flex;
   flex-direction: row;
@@ -92,20 +78,20 @@
   text-transform: uppercase;
   font-weight: 700;
   font-family: inherit;
-  width: 23rem;
+  width: 23.044rem;
 }
 .loremIpsumDolor {
   top: 13rem;
-  right: 4.125rem;
+  right: 4.131rem;
   font-size: var(--label-02-size);
   line-height: 1.5rem;
-  width: 18.875rem;
+  width: 18.913rem;
   opacity: 0.78;
 }
 .content {
   top: calc(50% - 168px);
-  left: calc(50% - 336px);
-  width: 23rem;
+  left: calc(50% - 336.65px);
+  width: 23.044rem;
   height: 21rem;
 }
 .content,
@@ -115,8 +101,8 @@
 }
 .inner {
   top: 8rem;
-  right: 22.875rem;
-  width: 48rem;
+  right: 22.925rem;
+  width: 48.094rem;
   height: 30rem;
 }
 .cta {

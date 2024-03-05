@@ -193,12 +193,12 @@
   font-weight: 700;
   font-family: inherit;
 }
-.heading,
-.subtext {
+.headerImage,
+.heading {
   position: absolute;
   top: 0;
 }
-.subtext {
+.headerImage {
   right: 14.688rem;
   font-size: var(--label-02-size);
   text-transform: uppercase;

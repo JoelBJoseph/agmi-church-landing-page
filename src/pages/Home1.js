@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import Footer1 from "../components/Footer1";
+import Footer from "../components/Footer";
 import WhatDoWeDo from "../components/WhatDoWeDo";
 import HomeHeader from "../components/HomeHeader";
 import CTA from "../components/CTA";
@@ -63,7 +63,7 @@ const Home = () => {
 
   return (
     <div className={styles.home}>
-      <Footer1
+      <Footer
         socialWrapper="/social-wrapper1@2x.png"
         backgroundShapeTop="203.25rem"
         inputLeft="calc(50% + 128.2px)"

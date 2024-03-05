@@ -1,135 +1,105 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import FrameComponent2 from "../components/FrameComponent2";
+import FrameComponent1 from "../components/FrameComponent1";
+import FrameComponent from "../components/FrameComponent";
+import Item2 from "../components/Item2";
+import Item1 from "../components/Item1";
+import Item from "../components/Item";
 import Footer1 from "../components/Footer1";
-import OurTeam from "../components/OurTeam";
-import BenefitsOfOurChurch from "../components/BenefitsOfOurChurch";
-import Welcome1 from "../components/Welcome1";
 import styles from "./AboutUs1.module.css";
 
 const AboutUs = () => {
-  const navigate = useNavigate();
-
-  const onButtonClick = useCallback(() => {
-    navigate("/contact");
-  }, [navigate]);
-
-  const onSermonsTextClick = useCallback(() => {
-    navigate("/sermons");
-  }, [navigate]);
-
-  const onContactTextClick = useCallback(() => {
-    navigate("/contact");
-  }, [navigate]);
-
-  const onHOMETextClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
-  const onAboutUsTextClick = useCallback(() => {
-    navigate("/about-us");
-  }, [navigate]);
-
-  const onNavButtonClick = useCallback(() => {
-    navigate("/contact");
-  }, [navigate]);
-
-  const onMinistryTextClick = useCallback(() => {
-    navigate("/sermons");
-  }, [navigate]);
-
-  const onAboutUsText2Click = useCallback(() => {
-    navigate("/about-us");
-  }, [navigate]);
-
-  const onHomeTextClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
-  const onLogoContainerClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
-  const onAbundantGraceMinistriesClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
-  const onAgmiLogo1ImageClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
   return (
     <div className={styles.aboutUs}>
-      <Footer1
-        socialWrapper="/social-wrapper@2x.png"
-        backgroundShapeTop="278.125rem"
-        inputLeft="calc(50% + 128px)"
-        inputWidth="32rem"
-        buttonLeft="calc(50% - 256px)"
-        buttonTextLeft="calc(50% + 55px)"
-        subscribeToGetLeft="3.91%"
-        socialWrapperIconWidth="5.87%"
-        socialWrapperIconRight="49.13%"
-        linksListWidth="4.4%"
-        linksListRight="59.8%"
-        copyrightFinsweet2022Width="10.875rem"
-        addressNumberWidth="7.4%"
-        addressNumberRight="85%"
-        emailnamegmsilcomWidth="11%"
-        emailnamegmsilcomLeft="7.6%"
-        messageFillIconWidth="82.42%"
-        messageFillIconLeft="17.58%"
-        onButtonClick={onButtonClick}
-        onSermonsTextClick={onSermonsTextClick}
-        onContactTextClick={onContactTextClick}
-        onHOMETextClick={onHOMETextClick}
-        onAboutUsTextClick={onAboutUsTextClick}
-      />
-      <OurTeam />
-      <BenefitsOfOurChurch />
-      <Welcome1 />
-      <section className={styles.aboutUsHero}>
-        <img className={styles.imageIcon} alt="" src="/image1@2x.png" />
-        <div className={styles.header}>
+      <Navbar />
+      <section className={styles.aboutUsHeroWrapper}>
+        <div className={styles.aboutUsHero}>
+          <img
+            className={styles.imageIcon}
+            loading="lazy"
+            alt=""
+            src="/image1@2x.png"
+          />
+          <b className={styles.aboutUs1}>About us</b>
           <h1 className={styles.servingTheWorld}>
             Serving the world around us
           </h1>
-          <b className={styles.aboutUs1}>About us</b>
         </div>
       </section>
-      <header className={styles.navbar}>
-        <div className={styles.background} />
-        <button className={styles.navButton} onClick={onNavButtonClick}>
-          <div className={styles.buttonText}>Contact us</div>
-        </button>
-        <div className={styles.linksList}>
-          <div className={styles.ministry} onClick={onMinistryTextClick}>
-            ministry
+      <section className={styles.frameParent}>
+        <div className={styles.frameGroup}>
+          <FrameComponent2 />
+          <div className={styles.frameContainer}>
+            <div className={styles.ourMissionVisionParent}>
+              <div className={styles.ourMission}>{`OUR MISSIOn & Vision`}</div>
+              <h1 className={styles.strivingForA}>
+                STRIVING FOR A BETTER TOMORROW
+              </h1>
+              <div className={styles.loremIpsumDolor}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum.
+              </div>
+            </div>
+            <div className={styles.whatWeDoParent}>
+              <div className={styles.whatWeDo}>WHAT WE DO</div>
+              <h1 className={styles.bringingPeaceAnd}>
+                BRINgING PEACE AND JOY TO THE WORLD
+              </h1>
+              <div className={styles.loremIpsumDolor1}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum.
+              </div>
+            </div>
           </div>
-          <h3 className={styles.aboutUs2} onClick={onAboutUsText2Click}>
-            About us
-          </h3>
-          <div className={styles.home} onClick={onHomeTextClick}>
-            Home
+        </div>
+        <div className={styles.frameDiv}>
+          <div className={styles.benefitsWrapper}>
+            <div className={styles.benefits}>{`BENEFITS `}</div>
           </div>
-          <div className={styles.divider} />
+          <h1 className={styles.benefitsOfOur}>
+            THE benefits of joining our church
+          </h1>
         </div>
-        <div className={styles.logo} onClick={onLogoContainerClick}>
-          <h1 className={styles.agmi}>AGMI</h1>
-        </div>
-        <div
-          className={styles.abundantGraceMinistries}
-          onClick={onAbundantGraceMinistriesClick}
-        >
-          Abundant Grace Ministries India
-        </div>
-        <img
-          className={styles.agmiLogo1Icon}
-          loading="lazy"
-          alt=""
-          src="/agmilogo-1@2x.png"
-          onClick={onAgmiLogo1ImageClick}
+        <FrameComponent1
+          findFulfillmentAndJoy="find fulfillment and joy"
+          httpsunsplashcomphotos3MW="/httpsunsplashcomphotos3mwdi5-6hrc@2x.png"
         />
-      </header>
+        <FrameComponent
+          httpsunsplashcomphotos3Xm="/httpsunsplashcomphotos3xmcv5mjzpw@2x.png"
+          sharedValues="shared values"
+        />
+        <FrameComponent1
+          findFulfillmentAndJoy="charity events"
+          httpsunsplashcomphotos3MW="/httpsunsplashcomphotos3mwdi5-6hrc-1@2x.png"
+          propWidth="unset"
+        />
+        <FrameComponent
+          httpsunsplashcomphotos3Xm="/httpsunsplashcomphotos3xmcv5mjzpw-1@2x.png"
+          sharedValues="All are welcome"
+          propPadding="0rem var(--padding-12xs) var(--padding-45xl) 0rem"
+          propWidth="unset"
+        />
+        <div className={styles.frameWrapper}>
+          <div className={styles.churchOfficersParent}>
+            <div className={styles.churchOfficers}>church members</div>
+            <h1 className={styles.meetOurInspirational}>
+              meet our Inspirational team
+            </h1>
+          </div>
+        </div>
+        <div className={styles.members}>
+          <Item2 />
+          <Item1 />
+          <Item />
+        </div>
+      </section>
+      <Footer1 />
     </div>
   );
 };

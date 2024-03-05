@@ -11,14 +11,7 @@ const CTA = () => {
 
   return (
     <section className={styles.cta}>
-      <div className={styles.background}>
-        <img
-          className={styles.httpswwwpexelscomphotofIcon}
-          alt=""
-          src="/httpswwwpexelscomphotofacadeofagedgrandcathedralwithdomeonrivershore5273642@2x.png"
-        />
-        <div className={styles.imageOverlay} />
-      </div>
+      <img className={styles.backgroundIcon} alt="" src="/background@2x.png" />
       <div className={styles.inner}>
         <div className={styles.testimonialBackground}>
           <div className={styles.mainBackground} />

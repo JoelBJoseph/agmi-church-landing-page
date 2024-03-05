@@ -1,219 +1,334 @@
 .imageIcon {
+  width: 100%;
+  height: 100%;
   position: absolute;
+  margin: 0 !important;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
-  width: 93.75rem;
-  height: 26.188rem;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
 }
 .aboutUs1,
 .servingTheWorld {
-  position: absolute;
+  position: relative;
   text-transform: uppercase;
+  z-index: 1;
 }
 .servingTheWorld {
   margin: 0;
-  top: 2.188rem;
-  right: 0;
-  font-size: inherit;
+  font-size: var(--heading-h2-size);
   letter-spacing: -0.01em;
   line-height: 4rem;
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
-  width: 40.438rem;
-}
-.aboutUs1 {
-  top: 0;
-  right: 36.188rem;
-  font-size: var(--label-02-size);
-}
-.header {
-  position: absolute;
-  top: 10rem;
-  right: 46.438rem;
-  width: 40.438rem;
-  height: 6.188rem;
+  max-width: 100%;
 }
 .aboutUsHero,
-.background {
-  position: absolute;
-  width: 100%;
-  left: 0;
+.aboutUsHeroWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .aboutUsHero {
-  top: 5rem;
-  height: 26.188rem;
+  flex: 1;
+  flex-direction: column;
+  padding: 10rem var(--padding-91xl);
+  position: relative;
+  gap: var(--gap-base);
+}
+.aboutUsHeroWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-109xl);
   text-align: left;
-  font-size: var(--heading-h2-size);
+  font-size: var(--label-02-size);
   color: var(--black1);
   font-family: var(--label-02);
 }
-.background {
-  height: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--color-gray-100);
-}
-.buttonText {
+.ourMission {
   position: relative;
-  font-size: var(--label-02-size);
-  line-height: 1rem;
   text-transform: uppercase;
-  font-family: var(--label-02);
-  color: var(--black);
-  text-align: center;
 }
-.navButton {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-xl) var(--padding-29xl);
-  background-color: var(--primary);
-  position: absolute;
-  top: calc(50% - 28px);
-  left: calc(50% + 460.5px);
-  border-radius: var(--br-xs);
-  backdrop-filter: blur(80px);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  white-space: nowrap;
-}
-.navButton:hover {
-  background-color: var(--color-burlywood);
-}
-.ministry {
-  width: 28.73%;
-  top: 38.75%;
-  left: 71.27%;
+.loremIpsumDolor,
+.strivingForA {
+  position: relative;
   display: inline-block;
 }
-.aboutUs2,
-.home,
-.ministry {
-  position: absolute;
-  text-transform: uppercase;
-  opacity: 0.9;
-  cursor: pointer;
-}
-.aboutUs2 {
+.strivingForA {
   margin: 0;
-  width: 29.27%;
-  top: 32.5%;
-  left: 37.13%;
-  font-size: var(--heading-h5-size);
-  text-decoration: underline;
-  letter-spacing: -0.01em;
-  font-weight: 700;
-  font-family: inherit;
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
-}
-.home {
-  width: 18.97%;
-  top: 38.75%;
-  left: 2.17%;
-  text-align: right;
-  display: inline-block;
-}
-.divider {
-  height: 100%;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  opacity: 0.1;
-}
-.agmi,
-.divider,
-.linksList {
-  position: absolute;
-  top: 0;
-}
-.linksList {
-  height: 100%;
-  width: 24.6%;
-  right: 33.87%;
-  bottom: 0;
-  left: 41.53%;
-}
-.agmi {
-  margin: 0;
-  left: 0;
-  font-size: inherit;
+  width: 23.188rem;
+  font-size: var(--heading-h4-size);
   letter-spacing: -0.01em;
   line-height: 2.75rem;
   text-transform: uppercase;
   font-weight: 700;
   font-family: inherit;
-  display: inline-block;
-  width: 4.375rem;
-  height: 2.063rem;
-  white-space: nowrap;
 }
-.abundantGraceMinistries,
-.logo {
-  position: absolute;
-  cursor: pointer;
+.loremIpsumDolor {
+  width: 23.25rem;
+  line-height: 1.5rem;
+  color: var(--color-gray-400);
 }
-.logo {
-  top: 0.313rem;
-  left: 17.688rem;
-  width: 4.375rem;
-  height: 2.125rem;
-  overflow: hidden;
-  font-size: var(--heading-h4-size);
-}
-.abundantGraceMinistries {
-  top: 3.063rem;
-  left: 12.938rem;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-.agmiLogo1Icon {
-  position: absolute;
-  height: calc(100% - 20px);
-  width: 3.4%;
-  top: 0.625rem;
-  right: 88.47%;
-  bottom: 0.625rem;
-  left: 8.13%;
+.ourMissionVisionParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem 0;
+  min-width: 23.25rem;
   max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  cursor: pointer;
 }
-.navbar {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 5rem;
-  z-index: 99;
+.whatWeDo {
+  position: relative;
+  text-transform: uppercase;
+}
+.bringingPeaceAnd,
+.loremIpsumDolor1 {
+  width: 23.188rem;
+  position: relative;
+  display: inline-block;
+}
+.bringingPeaceAnd {
+  margin: 0;
+  font-size: var(--heading-h4-size);
+  letter-spacing: -0.01em;
+  line-height: 2.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.loremIpsumDolor1 {
+  line-height: 1.5rem;
+  color: var(--color-gray-400);
+}
+.frameContainer,
+.frameGroup,
+.whatWeDoParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.whatWeDoParent {
+  flex-direction: column;
+  gap: 1rem 0;
+  min-width: 23.25rem;
+}
+.frameContainer,
+.frameGroup {
+  flex-direction: row;
+  gap: 0 1.5rem;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-45xl);
+  box-sizing: border-box;
+  gap: 4rem 0;
+}
+.benefits {
+  position: relative;
+  line-height: 1.5rem;
+}
+.benefitsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.188rem 0 0;
+}
+.benefitsOfOur {
+  margin: 0;
+  width: 27rem;
+  position: relative;
+  font-size: var(--heading-h2-size);
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem 0;
+  max-width: 100%;
+  text-align: center;
+}
+.churchOfficers,
+.meetOurInspirational {
+  position: relative;
+  text-transform: uppercase;
+}
+.meetOurInspirational {
+  margin: 0;
+  font-size: var(--heading-h2-size);
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: center;
+}
+.churchOfficersParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem 0;
+  max-width: 100%;
+}
+.frameWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aboutUs,
+.frameParent,
+.frameWrapper,
+.members {
+  display: flex;
+  justify-content: flex-start;
+}
+.members {
+  width: 62.125rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.aboutUs,
+.frameParent {
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent {
+  width: 66.563rem;
+  padding: 0 var(--padding-xl) var(--padding-109xl);
+  box-sizing: border-box;
+  gap: 4rem 0;
+  max-width: 100%;
   text-align: left;
   font-size: var(--label-02-size);
-  color: var(--white);
+  color: var(--black1);
   font-family: var(--label-02);
 }
 .aboutUs {
   width: 100%;
-  height: 297.625rem;
   position: relative;
   background-color: var(--white);
   overflow: hidden;
   letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .frameGroup,
+  .frameParent {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    padding-bottom: var(--padding-35xl);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .aboutUsHero {
+    padding-left: var(--padding-36xl);
+    padding-right: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    gap: 4rem 0;
+  }
+  .members {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: 4rem 0;
+    padding-bottom: 2.188rem;
+    box-sizing: border-box;
+  }
 }
 @media screen and (max-width: 750px) {
   .servingTheWorld {
     font-size: var(--font-size-19xl);
     line-height: 3.188rem;
   }
+  .aboutUsHeroWrapper {
+    padding-bottom: 5.188rem;
+    box-sizing: border-box;
+  }
+  .strivingForA {
+    font-size: var(--font-size-7xl);
+    line-height: 2.188rem;
+  }
+  .ourMissionVisionParent {
+    flex: 1;
+  }
+  .bringingPeaceAnd {
+    font-size: var(--font-size-7xl);
+    line-height: 2.188rem;
+  }
+  .whatWeDoParent {
+    flex: 1;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .frameGroup {
+    gap: 4rem 0;
+    padding-bottom: 1.688rem;
+    box-sizing: border-box;
+  }
+  .benefitsOfOur,
+  .meetOurInspirational {
+    font-size: var(--font-size-19xl);
+    line-height: 3.188rem;
+  }
+  .frameParent {
+    gap: 4rem 0;
+    padding-bottom: 1.438rem;
+    box-sizing: border-box;
+  }
 }
 @media screen and (max-width: 450px) {
   .servingTheWorld {
+    font-size: var(--font-size-10xl);
+    line-height: 2.375rem;
+  }
+  .aboutUsHero {
+    padding: 6.5rem var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .strivingForA {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .ourMissionVisionParent {
+    min-width: 100%;
+  }
+  .bringingPeaceAnd {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
+  }
+  .whatWeDoParent {
+    min-width: 100%;
+  }
+  .benefitsOfOur,
+  .meetOurInspirational {
     font-size: var(--font-size-10xl);
     line-height: 2.375rem;
   }
