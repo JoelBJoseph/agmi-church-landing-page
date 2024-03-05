@@ -1,0 +1,220 @@
+.imageIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93.75rem;
+  height: 26.188rem;
+  object-fit: cover;
+}
+.aboutUs1,
+.servingTheWorld {
+  position: absolute;
+  text-transform: uppercase;
+}
+.servingTheWorld {
+  margin: 0;
+  top: 2.188rem;
+  right: 0;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 40.438rem;
+}
+.aboutUs1 {
+  top: 0;
+  right: 36.188rem;
+  font-size: var(--label-02-size);
+}
+.header {
+  position: absolute;
+  top: 10rem;
+  right: 46.438rem;
+  width: 40.438rem;
+  height: 6.188rem;
+}
+.aboutUsHero,
+.background {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.aboutUsHero {
+  top: 5rem;
+  height: 26.188rem;
+  text-align: left;
+  font-size: var(--heading-h2-size);
+  color: var(--black1);
+  font-family: var(--label-02);
+}
+.background {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-gray-100);
+}
+.buttonText {
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: var(--label-02);
+  color: var(--black);
+  text-align: center;
+}
+.navButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-29xl);
+  background-color: var(--primary);
+  position: absolute;
+  top: calc(50% - 28px);
+  left: calc(50% + 460.5px);
+  border-radius: var(--br-xs);
+  backdrop-filter: blur(80px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.navButton:hover {
+  background-color: var(--color-burlywood);
+}
+.ministry {
+  width: 28.73%;
+  top: 38.75%;
+  left: 71.27%;
+  display: inline-block;
+}
+.aboutUs2,
+.home,
+.ministry {
+  position: absolute;
+  text-transform: uppercase;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.aboutUs2 {
+  margin: 0;
+  width: 29.27%;
+  top: 32.5%;
+  left: 37.13%;
+  font-size: var(--heading-h5-size);
+  text-decoration: underline;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.home {
+  width: 18.97%;
+  top: 38.75%;
+  left: 2.17%;
+  text-align: right;
+  display: inline-block;
+}
+.divider {
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  opacity: 0.1;
+}
+.agmi,
+.divider,
+.linksList {
+  position: absolute;
+  top: 0;
+}
+.linksList {
+  height: 100%;
+  width: 24.6%;
+  right: 33.87%;
+  bottom: 0;
+  left: 41.53%;
+}
+.agmi {
+  margin: 0;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 2.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 4.375rem;
+  height: 2.063rem;
+  white-space: nowrap;
+}
+.abundantGraceMinistries,
+.logo {
+  position: absolute;
+  cursor: pointer;
+}
+.logo {
+  top: 0.313rem;
+  left: 17.688rem;
+  width: 4.375rem;
+  height: 2.125rem;
+  overflow: hidden;
+  font-size: var(--heading-h4-size);
+}
+.abundantGraceMinistries {
+  top: 3.063rem;
+  left: 12.938rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.agmiLogo1Icon {
+  position: absolute;
+  height: calc(100% - 20px);
+  width: 3.4%;
+  top: 0.625rem;
+  right: 88.47%;
+  bottom: 0.625rem;
+  left: 8.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--label-02-size);
+  color: var(--white);
+  font-family: var(--label-02);
+}
+.aboutUs {
+  width: 100%;
+  height: 297.625rem;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .servingTheWorld {
+    font-size: var(--font-size-19xl);
+    line-height: 3.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .servingTheWorld {
+    font-size: var(--font-size-10xl);
+    line-height: 2.375rem;
+  }
+}

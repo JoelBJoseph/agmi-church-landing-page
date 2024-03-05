@@ -1,0 +1,903 @@
+.background,
+.imageIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.imageIcon {
+  left: 27.188rem;
+  max-height: 100%;
+  width: 52.813rem;
+  object-fit: cover;
+}
+.background {
+  left: 0;
+  background-color: var(--light-orange);
+  width: 27.188rem;
+}
+.kerala683642India,
+.kochiErnakulam,
+.pOBox37,
+.perumbavoorPO {
+  margin: 0;
+}
+.pOBox37Container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 11.5rem;
+}
+.line {
+  position: absolute;
+  top: 1.144rem;
+  right: 0.638rem;
+  border-right: 1.5px solid var(--black1);
+  box-sizing: border-box;
+  width: 0.094rem;
+  height: 0.469rem;
+}
+.circle,
+.icon,
+.location {
+  position: absolute;
+  width: 1.25rem;
+}
+.circle {
+  top: 0;
+  right: 0;
+  border-radius: var(--br-smi);
+  border: 1.5px solid var(--black1);
+  box-sizing: border-box;
+  height: 1.25rem;
+}
+.icon,
+.location {
+  top: 0.5rem;
+  right: 12.5rem;
+  height: 1.563rem;
+}
+.location {
+  top: 14.813rem;
+  right: 12.063rem;
+  width: 13.75rem;
+  height: 4rem;
+}
+.thisOrdinationCredential {
+  position: absolute;
+  top: 8.375rem;
+  right: 9.938rem;
+  line-height: 1.5rem;
+  display: inline-block;
+  width: 16rem;
+  opacity: 0.78;
+}
+.credentialOrdination {
+  margin: 0;
+  top: 0;
+  font-size: var(--heading-h3-size);
+  letter-spacing: -0.01em;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.credentialOrdination,
+.info,
+.titleAndDescription {
+  position: absolute;
+  right: 0;
+  width: 25.938rem;
+}
+.titleAndDescription {
+  top: 0;
+  height: 12.875rem;
+  font-size: var(--label-02-size);
+}
+.info {
+  top: 4.563rem;
+  height: 18.813rem;
+}
+.content,
+.item {
+  position: absolute;
+  left: 0;
+}
+.content {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 30.188rem;
+}
+.item {
+  top: 175.25rem;
+  width: 100%;
+  height: 32rem;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--black1);
+  font-family: var(--label-02);
+}
+.background1,
+.imageIcon1 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+.imageIcon1 {
+  bottom: 0;
+  left: 27.125rem;
+  max-height: 100%;
+  width: 52.813rem;
+  object-fit: cover;
+}
+.background1 {
+  left: 0;
+  background-color: var(--light-orange);
+  width: 100%;
+}
+.kerala683642India1,
+.kochiErnakulam1,
+.pOBox371,
+.perumbavoorPO1 {
+  margin: 0;
+}
+.pOBox37Container1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 11.5rem;
+}
+.line1 {
+  position: absolute;
+  top: 1.144rem;
+  right: 0.638rem;
+  border-right: 1.5px solid var(--black1);
+  box-sizing: border-box;
+  width: 0.094rem;
+  height: 0.469rem;
+}
+.circle1,
+.icon1,
+.location1 {
+  position: absolute;
+  width: 1.25rem;
+}
+.circle1 {
+  top: 0;
+  right: 0;
+  border-radius: var(--br-smi);
+  border: 1.5px solid var(--black1);
+  box-sizing: border-box;
+  height: 1.25rem;
+}
+.icon1,
+.location1 {
+  top: 0.5rem;
+  right: 12.5rem;
+  height: 1.563rem;
+}
+.location1 {
+  top: 13.125rem;
+  right: 7.75rem;
+  width: 13.75rem;
+  height: 4rem;
+}
+.kidsEvangelism,
+.letTheLittle {
+  position: absolute;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.letTheLittle {
+  top: 4.5rem;
+  right: 0;
+  width: 21.625rem;
+  opacity: 0.78;
+}
+.kidsEvangelism {
+  margin: 0;
+  top: 0;
+  right: 2.563rem;
+  font-size: var(--heading-h3-size);
+  line-height: 3.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  width: 19.063rem;
+}
+.info1,
+.titleAndDescription1 {
+  position: absolute;
+  width: 21.625rem;
+}
+.titleAndDescription1 {
+  top: 0;
+  right: 0;
+  height: 10.25rem;
+  font-size: 1.25rem;
+}
+.info1 {
+  top: 5.375rem;
+  right: 1.875rem;
+  height: 17.125rem;
+}
+.content1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 27.188rem;
+}
+.item1 {
+  position: absolute;
+  top: 135.25rem;
+  left: 0.563rem;
+  width: 100%;
+  height: 32rem;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--black1);
+  font-family: var(--label-02);
+}
+.background2,
+.imageIcon2 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.imageIcon2 {
+  left: 27.188rem;
+  max-height: 100%;
+  width: 52.813rem;
+  object-fit: cover;
+}
+.background2 {
+  left: 0;
+  background-color: var(--light-orange);
+  width: 27.188rem;
+}
+.agmi,
+.kerala683642India2,
+.kochiErnakulam2,
+.pOBox372,
+.perumbavoorPO2 {
+  margin: 0;
+}
+.agmiPOContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 11.5rem;
+}
+.line2 {
+  position: absolute;
+  top: 1.144rem;
+  right: 0.638rem;
+  border-right: 1.5px solid var(--black1);
+  box-sizing: border-box;
+  width: 0.094rem;
+  height: 0.469rem;
+}
+.circle2,
+.icon2,
+.location2 {
+  position: absolute;
+  width: 1.25rem;
+}
+.circle2 {
+  top: 0;
+  right: 0;
+  border-radius: var(--br-smi);
+  border: 1.5px solid var(--black1);
+  box-sizing: border-box;
+  height: 1.25rem;
+}
+.icon2,
+.location2 {
+  top: 0.5rem;
+  right: 12.5rem;
+  height: 1.563rem;
+}
+.location2 {
+  top: 15.063rem;
+  right: 12.063rem;
+  width: 13.75rem;
+  height: 5rem;
+}
+.sunday2024,
+.time9Am {
+  margin: 0;
+}
+.sunday2024TimeContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 1.5rem;
+  display: inline-block;
+  width: 8.563rem;
+}
+.clockIcon {
+  position: absolute;
+  top: 0.125rem;
+  left: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.time {
+  position: absolute;
+  top: 11.313rem;
+  right: 15rem;
+  width: 10.813rem;
+  height: 3rem;
+  font-size: var(--label-02-size);
+}
+.encourageEquipAnd,
+.missionConference {
+  margin: 0;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.encourageEquipAnd {
+  position: absolute;
+  top: 4.5rem;
+  right: 7.25rem;
+  font-size: inherit;
+  width: 18.688rem;
+  opacity: 0.78;
+}
+.missionConference {
+  top: 0;
+  font-size: var(--heading-h3-size);
+  line-height: 3.5rem;
+}
+.info2,
+.missionConference,
+.titleAndDescription2 {
+  position: absolute;
+  right: 0;
+  width: 25.938rem;
+}
+.titleAndDescription2 {
+  top: 0;
+  height: 9.75rem;
+  font-size: var(--heading-h5-size);
+}
+.info2 {
+  top: 4.313rem;
+  height: 20.063rem;
+}
+.content2 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 29.625rem;
+}
+.item2 {
+  position: absolute;
+  top: 95.25rem;
+  left: 0.563rem;
+  width: 100%;
+  height: 32rem;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--black1);
+  font-family: var(--label-02);
+}
+.background3,
+.imageIcon3 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+.imageIcon3 {
+  bottom: 0;
+  left: 27.188rem;
+  max-height: 100%;
+  width: 52.813rem;
+  object-fit: cover;
+}
+.background3 {
+  left: 0;
+  background-color: var(--light-orange);
+  width: 100%;
+}
+.agmi1,
+.kerala683642India3,
+.kochiErnakulam3,
+.pOBox373,
+.perumbavoorPO3 {
+  margin: 0;
+}
+.agmiPOContainer1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 11.5rem;
+}
+.line3 {
+  position: absolute;
+  top: 1.144rem;
+  right: 0.638rem;
+  border-right: 1.5px solid var(--black1);
+  box-sizing: border-box;
+  width: 0.094rem;
+  height: 0.469rem;
+}
+.circle3,
+.icon3,
+.location3 {
+  position: absolute;
+  width: 1.25rem;
+}
+.circle3 {
+  top: 0;
+  right: 0;
+  border-radius: var(--br-smi);
+  border: 1.5px solid var(--black1);
+  box-sizing: border-box;
+  height: 1.25rem;
+}
+.icon3,
+.location3 {
+  top: 0.5rem;
+  right: 12.5rem;
+  height: 1.563rem;
+}
+.location3 {
+  top: 15.375rem;
+  right: 6.875rem;
+  width: 13.75rem;
+  height: 5rem;
+}
+.sunday20241,
+.time9Am1 {
+  margin: 0;
+}
+.sunday2024TimeContainer1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 1.5rem;
+  display: inline-block;
+  width: 8.563rem;
+}
+.clockIcon1 {
+  position: absolute;
+  top: 0.125rem;
+  left: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.time1 {
+  position: absolute;
+  top: 11.625rem;
+  right: 9.813rem;
+  width: 10.813rem;
+  height: 3rem;
+  font-size: var(--label-02-size);
+}
+.localChurches,
+.whereTwoOr {
+  margin: 0;
+  position: absolute;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.whereTwoOr {
+  top: 4.5rem;
+  right: 0;
+  font-size: inherit;
+  width: 20.75rem;
+  opacity: 0.78;
+}
+.localChurches {
+  top: 0;
+  right: 2.25rem;
+  font-size: var(--heading-h3-size);
+  line-height: 3.5rem;
+  width: 18.5rem;
+}
+.info3,
+.titleAndDescription3 {
+  position: absolute;
+  width: 20.75rem;
+}
+.titleAndDescription3 {
+  top: 0;
+  right: 0;
+  height: 9.75rem;
+  font-size: var(--heading-h5-size);
+}
+.info3 {
+  top: 3.813rem;
+  right: 2.75rem;
+  height: 20.375rem;
+}
+.content3 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 27.188rem;
+}
+.item3 {
+  position: absolute;
+  top: 55.25rem;
+  left: 0.563rem;
+  width: 100%;
+  height: 32rem;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--black1);
+  font-family: var(--label-02);
+}
+.joinUsAnd,
+.upcomingSermons1 {
+  position: absolute;
+  text-transform: uppercase;
+}
+.joinUsAnd {
+  margin: 0;
+  top: 2.188rem;
+  right: 0;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 34.625rem;
+}
+.upcomingSermons1 {
+  top: 0;
+  right: 12.5rem;
+  font-size: var(--label-02-size);
+  text-align: left;
+}
+.heading {
+  position: absolute;
+  top: 0;
+  right: 22.688rem;
+  width: 34.625rem;
+  height: 10.188rem;
+}
+.upcomingSermons {
+  position: absolute;
+  top: 39.188rem;
+  left: 6.313rem;
+  width: 80.563rem;
+  height: 207.25rem;
+  text-align: center;
+  font-size: var(--heading-h2-size);
+  color: var(--black1);
+  font-family: var(--label-02);
+}
+.imageIcon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93.75rem;
+  height: 26.188rem;
+  object-fit: cover;
+}
+.mission,
+.takePartIn {
+  position: absolute;
+  text-transform: uppercase;
+}
+.takePartIn {
+  margin: 0;
+  top: 2.188rem;
+  right: 0;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.mission {
+  top: 0;
+  right: 31.25rem;
+  font-size: var(--label-02-size);
+}
+.content4 {
+  position: absolute;
+  top: 10rem;
+  right: 52rem;
+  width: 34.875rem;
+  height: 6.188rem;
+}
+.background4,
+.sermonsHeader {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.sermonsHeader {
+  top: 5rem;
+  height: 26.188rem;
+  text-align: left;
+  font-size: var(--heading-h2-size);
+  color: var(--color-gray-900);
+}
+.background4 {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-gray-100);
+}
+.buttonText {
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: var(--label-02);
+  color: var(--black);
+  text-align: center;
+}
+.navButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-29xl);
+  background-color: var(--primary);
+  position: absolute;
+  top: calc(50% - 28px);
+  left: calc(50% + 460.5px);
+  border-radius: var(--br-xs);
+  backdrop-filter: blur(80px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.navButton:hover {
+  background-color: var(--color-burlywood);
+}
+.aboutUs,
+.home,
+.ministry {
+  position: absolute;
+  text-transform: uppercase;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.ministry {
+  margin: 0;
+  width: 28.73%;
+  top: 32.5%;
+  left: 71.27%;
+  font-size: var(--heading-h5-size);
+  text-decoration: underline;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.aboutUs,
+.home {
+  top: 38.75%;
+  display: inline-block;
+}
+.aboutUs {
+  width: 29.27%;
+  left: 37.13%;
+  white-space: nowrap;
+}
+.home {
+  width: 18.97%;
+  left: 2.17%;
+  text-align: right;
+}
+.divider {
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  opacity: 0.1;
+}
+.agmi2,
+.divider,
+.linksList {
+  position: absolute;
+  top: 0;
+}
+.linksList {
+  height: 100%;
+  width: 24.6%;
+  right: 33.87%;
+  bottom: 0;
+  left: 41.53%;
+}
+.agmi2 {
+  margin: 0;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 2.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 4.375rem;
+  height: 2.063rem;
+  white-space: nowrap;
+}
+.abundantGraceMinistries,
+.logo {
+  position: absolute;
+  cursor: pointer;
+}
+.logo {
+  top: 0.313rem;
+  left: 17.688rem;
+  width: 4.375rem;
+  height: 2.125rem;
+  overflow: hidden;
+  font-size: var(--heading-h4-size);
+}
+.abundantGraceMinistries {
+  top: 3.063rem;
+  left: 12.938rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.agmiLogo1Icon {
+  position: absolute;
+  height: calc(100% - 20px);
+  width: 3.4%;
+  top: 0.625rem;
+  right: 88.47%;
+  bottom: 0.625rem;
+  left: 8.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--label-02-size);
+  color: var(--white);
+  font-family: var(--label-02);
+}
+.comeJoinUs,
+.comeJoinUs1,
+.comeJoinUs2,
+.comeJoinUs3,
+.comeJoinUs4 {
+  margin: 0;
+  position: absolute;
+  top: 79.375rem;
+  left: 10.563rem;
+  font-size: inherit;
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.comeJoinUs1,
+.comeJoinUs2,
+.comeJoinUs3,
+.comeJoinUs4 {
+  top: 239.563rem;
+  left: 11.125rem;
+}
+.comeJoinUs2,
+.comeJoinUs3,
+.comeJoinUs4 {
+  top: 199.438rem;
+  left: 10.563rem;
+}
+.comeJoinUs3,
+.comeJoinUs4 {
+  top: 160.375rem;
+}
+.comeJoinUs4 {
+  top: 120.375rem;
+}
+.sermons {
+  width: 100%;
+  height: 275.375rem;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--label-02);
+}
+@media screen and (max-width: 750px) {
+  .credentialOrdination,
+  .kidsEvangelism,
+  .localChurches,
+  .missionConference {
+    font-size: var(--heading-h4-size);
+    line-height: 2.813rem;
+  }
+  .joinUsAnd,
+  .takePartIn {
+    font-size: var(--font-size-19xl);
+    line-height: 3.188rem;
+  }
+  .comeJoinUs,
+  .comeJoinUs1,
+  .comeJoinUs2,
+  .comeJoinUs3,
+  .comeJoinUs4 {
+    font-size: var(--heading-h5-size);
+    line-height: 0.813rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .credentialOrdination {
+    font-size: var(--heading-h5-size);
+    line-height: 2.125rem;
+  }
+  .letTheLittle {
+    font-size: var(--label-02-size);
+  }
+  .kidsEvangelism {
+    font-size: var(--heading-h5-size);
+    line-height: 2.125rem;
+  }
+  .encourageEquipAnd {
+    font-size: var(--font-size-lgi);
+  }
+  .missionConference {
+    font-size: var(--heading-h5-size);
+    line-height: 2.125rem;
+  }
+  .whereTwoOr {
+    font-size: var(--font-size-lgi);
+  }
+  .localChurches {
+    font-size: var(--heading-h5-size);
+    line-height: 2.125rem;
+  }
+  .joinUsAnd,
+  .takePartIn {
+    font-size: var(--font-size-10xl);
+    line-height: 2.375rem;
+  }
+  .comeJoinUs,
+  .comeJoinUs1,
+  .comeJoinUs2,
+  .comeJoinUs3,
+  .comeJoinUs4 {
+    font-size: var(--label-03-size);
+    line-height: 0.625rem;
+  }
+}

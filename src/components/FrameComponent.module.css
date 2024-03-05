@@ -1,207 +1,108 @@
-.upcomingSermons {
-  position: relative;
-  text-transform: uppercase;
-}
-.sermonTitles1 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 0 0 var(--padding-smi);
-}
-.joinUsAnd {
+.contactUs {
   margin: 0;
-  width: 34.625rem;
+  flex: 1;
   position: relative;
-  font-size: var(--heading-h2-size);
-  letter-spacing: -0.01em;
-  line-height: 4rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
-  text-align: center;
-  display: inline-block;
-}
-.sermonTitles {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 1rem 0;
-  max-width: 100%;
-}
-.viewAllSermons {
-  margin: 0;
-  position: absolute;
-  top: 35rem;
-  left: 67.563rem;
   font-size: inherit;
-  line-height: 2rem;
-  font-weight: 400;
-  font-family: inherit;
-}
-.arrowIcon {
-  position: absolute;
-  top: 36.125rem;
-  left: 78.5rem;
-  width: 1.5rem;
-  height: 0.919rem;
-}
-.imageIcon {
-  position: absolute;
-  top: 0;
-  left: 27.188rem;
-  width: 52.813rem;
-  height: 32rem;
-  object-fit: cover;
-}
-.background {
-  width: 27.188rem;
-  height: 32rem;
-  position: relative;
-  background-color: var(--color-seashell);
-  display: none;
-  max-width: 100%;
-}
-.footer {
-  position: relative;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  z-index: 1;
-}
-.footerWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-3xs);
-}
-.upComingEvents {
-  position: relative;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  background: linear-gradient(109.61deg, #a54e2b, #dc9853);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  z-index: 1;
-}
-.loremIpsumDolor,
-.watchAndListen {
-  position: relative;
-  display: inline-block;
-  z-index: 1;
-}
-.watchAndListen {
-  margin: 0;
-  width: 13.125rem;
-  height: 3.5rem;
-  font-size: var(--heading-h5-size);
   letter-spacing: -0.01em;
   text-transform: uppercase;
   font-weight: 700;
   font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
 }
-.loremIpsumDolor {
-  width: 16rem;
-  font-size: var(--paragraph-size);
-  line-height: 1.5rem;
-  color: var(--color-gray-500);
-}
-.upComingEventsParent {
-  flex: 1;
+.dividerLine,
+.input,
+.input1,
+.input2 {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
   justify-content: flex-start;
-  gap: 1rem 0;
-  min-width: 10.375rem;
+  box-sizing: border-box;
 }
-.mar {
-  position: relative;
-  font-size: var(--label-02-size);
-  text-transform: uppercase;
-  z-index: 1;
+.dividerLine {
+  width: 31.938rem;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs);
+  max-width: 100%;
 }
-.frameGroup,
-.frameParent {
+.input,
+.input1,
+.input2 {
+  border: 0;
+  outline: 0;
+  background-color: var(--white);
   align-self: stretch;
-  display: flex;
-  justify-content: flex-start;
-}
-.frameGroup {
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0 1.625rem;
-  font-size: var(--cap-02-size);
-}
-.frameParent {
-  flex-direction: column;
-  align-items: flex-end;
-}
-.clockIcon,
-.sunday9Am {
-  position: relative;
-  z-index: 1;
-}
-.clockIcon {
-  height: 1.25rem;
-  width: 1.25rem;
-}
-.sunday9Am {
-  flex: 1;
-  line-height: 1.5rem;
-}
-.clockIconFrame,
-.clockIconFrameWrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.clockIconFrame {
-  width: 10.813rem;
+  height: 4rem;
+  border-radius: var(--br-9xs);
   align-items: center;
-  gap: 0 1rem;
+  padding: var(--padding-xl);
+  color: var(--black1);
+  min-width: 15.625rem;
 }
-.clockIconFrameWrapper {
+.input,
+.input1 {
+  font-family: var(--label-02);
+  font-size: var(--label-02-size);
+}
+.input2 {
+  width: 100%;
+}
+.buttonText,
+.input2,
+.input3 {
+  font-size: var(--label-02-size);
+  font-family: var(--label-02);
+}
+.input3 {
+  border: 0;
+  background-color: var(--white);
+  height: 7.5rem;
+  width: auto;
+  outline: 0;
   align-self: stretch;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
-  padding: 0 var(--padding-11xs) var(--padding-5xs);
-  font-size: var(--paragraph-size);
-}
-.membersSection4 {
-  position: absolute;
-  top: 1.188rem;
-  right: 0.594rem;
-  border-right: 1.5px solid var(--bl);
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
   box-sizing: border-box;
-  width: 0.094rem;
-  height: 0.469rem;
+  color: var(--black1);
 }
-.circle,
-.icon {
-  width: 1.25rem;
-  z-index: 1;
-}
-.circle {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: var(--br-smi);
-  border: 1.5px solid var(--bl);
-  box-sizing: border-box;
-  height: 1.25rem;
-}
-.icon {
-  height: 1.563rem;
+.buttonText {
   position: relative;
+  line-height: 1rem;
+  text-transform: uppercase;
+  color: var(--black);
+  text-align: center;
 }
-.noMainSt {
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl);
+  background-color: var(--primary);
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-burlywood);
+}
+.contactUsFrame {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-9xs) 0 0;
+  gap: 0.75rem 0;
+  min-width: 25.375rem;
+  max-width: 100%;
+}
+.address {
+  position: relative;
 }
 .kerala683642India,
 .kochiErnakulam,
@@ -210,138 +111,172 @@
   margin: 0;
 }
 .pOBox37Container {
-  flex: 1;
-  position: relative;
-  text-transform: uppercase;
-  display: inline-block;
-  min-width: 5.438rem;
-  z-index: 1;
-}
-.membersSection2,
-.membersSection3 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.membersSection3 {
-  flex: 1;
-  flex-wrap: wrap;
-  gap: 0 1rem;
-}
-.membersSection2 {
-  align-self: stretch;
-  padding: 0 0 0 var(--padding-11xs);
-}
-.comeJoinUs {
   margin: 0;
+  flex: 1;
   position: relative;
-  font-size: var(--font-size-11xl);
-  line-height: 1rem;
+  font-size: var(--heading-h5-size);
+  letter-spacing: -0.01em;
   text-transform: uppercase;
   font-weight: 700;
   font-family: inherit;
-  color: var(--color-black);
-  text-align: center;
-  z-index: 2;
+  color: var(--black1);
 }
-.membersSection1 {
-  width: 13.875rem;
+.queryRelatedInput {
+  flex: 1;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.5rem 0;
-}
-.content,
-.membersSection,
-.membersSection1 {
-  display: flex;
   justify-content: flex-start;
+  gap: 0.5rem 0;
 }
-.membersSection {
+.contactDetails {
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 1.5rem;
+  color: var(--color-gray-200);
+}
+.finsweetexamplecom,
+.ph9194466 {
+  position: relative;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.ph9194466 {
   align-self: stretch;
+}
+.finsweetexamplecom {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.phoneNumberText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem 0;
+  font-size: var(--heading-h5-size);
+  color: var(--black1);
+}
+.findUsHere {
+  position: relative;
+  line-height: 1.5rem;
+}
+.facebookNegative,
+.twitterNegative {
+  height: 1.625rem;
+  width: 1.563rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.twitterNegative {
+  width: 1.625rem;
+}
+.instaFillIcon {
+  height: 1.688rem;
+  width: 1.688rem;
+  position: relative;
+  object-fit: cover;
+  min-height: 1.688rem;
+}
+.instagramComponent {
+  align-self: stretch;
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
-  font-size: var(--cap-02-size);
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
 }
-.content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-seashell);
-  width: 27.188rem;
-  flex-direction: column;
-  align-items: center;
-  padding: var(--padding-13xl) var(--padding-15xl) var(--padding-90xl)
-    var(--padding-70xl);
-  box-sizing: border-box;
-  gap: var(--gap-13xl);
-  max-width: 100%;
-}
-.viewAllSermonsButton {
-  align-self: stretch;
-  height: 37rem;
-  position: relative;
-  max-width: 100%;
-  font-size: var(--heading-h5-size);
-}
-.sermonTitlesParent {
-  width: 82.5rem;
+.emailInput,
+.socialFrames {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-xl) var(--padding-118xl);
-  box-sizing: border-box;
-  gap: 4rem 0;
-  max-width: 100%;
-  text-align: left;
-  font-size: var(--label-02-size);
-  color: var(--bl);
-  font-family: var(--paragraph);
 }
-@media screen and (max-width: 1050px) {
-  .sermonTitlesParent {
-    padding-bottom: var(--padding-70xl);
-    box-sizing: border-box;
+.socialFrames {
+  width: 8.813rem;
+  gap: 0.5rem 0;
+  font-size: var(--label-02-size);
+}
+.emailInput {
+  height: 22.438rem;
+  width: 18.75rem;
+  gap: 1.938rem 0;
+  min-width: 18.75rem;
+}
+.navButtonInstance {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 8rem;
+  font-size: var(--label-03-size);
+  color: var(--color-gray-200);
+}
+.linksListFrame,
+.linksListFrameWrapper,
+.navButtonInstance {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.linksListFrame {
+  width: 65.75rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem 0;
+}
+.linksListFrameWrapper {
+  width: 79.5rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-109xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-h5-size);
+  color: var(--dark);
+  font-family: var(--label-02);
+}
+@media screen and (max-width: 1100px) {
+  .emailInput {
+    flex: 1;
+  }
+  .navButtonInstance {
+    flex-wrap: wrap;
+    gap: 0 8rem;
   }
 }
 @media screen and (max-width: 750px) {
-  .joinUsAnd {
-    font-size: var(--font-size-19xl);
-    line-height: 3.188rem;
+  .contactUsFrame {
+    min-width: 100%;
   }
-  .comeJoinUs {
-    font-size: var(--heading-h5-size);
-    line-height: 0.813rem;
+  .navButtonInstance {
+    gap: 0 8rem;
   }
-  .sermonTitlesParent {
-    gap: 4rem 0;
-    padding-bottom: var(--padding-39xl);
+  .linksListFrame {
+    gap: 2rem 0;
+  }
+  .linksListFrameWrapper {
+    padding-bottom: var(--padding-64xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .joinUsAnd {
-    font-size: var(--font-size-10xl);
-    line-height: 2.375rem;
-  }
-  .viewAllSermons {
-    line-height: 1.625rem;
-  }
-  .footer,
-  .viewAllSermons,
-  .watchAndListen {
+  .contactUs,
+  .finsweetexamplecom,
+  .pOBox37Container,
+  .ph9194466 {
     font-size: var(--font-size-lgi);
   }
-  .comeJoinUs {
-    font-size: var(--label-03-size);
-    line-height: 0.625rem;
+  .emailInput {
+    gap: 1.938rem 0;
   }
-  .viewAllSermonsButton {
-    height: auto;
-    min-height: 592;
-  }
-  .sermonTitlesParent {
-    gap: 4rem 0;
+  .navButtonInstance {
+    gap: 0 8rem;
   }
 }

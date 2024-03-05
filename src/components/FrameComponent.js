@@ -2,78 +2,77 @@ import styles from "./FrameComponent.module.css";
 
 const FrameComponent = () => {
   return (
-    <section className={styles.sermonTitlesParent}>
-      <div className={styles.sermonTitles}>
-        <div className={styles.sermonTitles1}>
-          <div className={styles.upcomingSermons}>Upcoming SERMONS</div>
+    <section className={styles.linksListFrameWrapper}>
+      <div className={styles.linksListFrame}>
+        <div className={styles.dividerLine}>
+          <h3 className={styles.contactUs}>Contact form:</h3>
         </div>
-        <h1 className={styles.joinUsAnd}>
-          join us and become part of something great
-        </h1>
-      </div>
-      <div className={styles.viewAllSermonsButton}>
-        <h2 className={styles.viewAllSermons}>View all Sermons</h2>
-        <img
-          className={styles.arrowIcon}
-          loading="lazy"
-          alt=""
-          src="/arrow.svg"
-        />
-        <img className={styles.imageIcon} alt="" src="/image-1@2x.png" />
-        <div className={styles.content}>
-          <div className={styles.background} />
-          <div className={styles.frameParent}>
-            <div className={styles.footerWrapper}>
-              <b className={styles.footer}>3</b>
-            </div>
-            <div className={styles.frameGroup}>
-              <div className={styles.upComingEventsParent}>
-                <b className={styles.upComingEvents}>Upcoming Event</b>
-                <h2 className={styles.watchAndListen}>
-                  WATCH AND LISTEN TO OUR SERMONS
-                </h2>
-                <div className={styles.loremIpsumDolor}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor.
-                </div>
-              </div>
-              <div className={styles.mar}>MAR</div>
-            </div>
+        <div className={styles.navButtonInstance}>
+          <div className={styles.contactUsFrame}>
+            <input
+              className={styles.input}
+              placeholder="Your full Name"
+              type="text"
+            />
+            <input
+              className={styles.input1}
+              placeholder="Your Email"
+              type="text"
+            />
+            <input
+              className={styles.input2}
+              placeholder="Query Related"
+              type="text"
+            />
+            <textarea
+              className={styles.input3}
+              placeholder="Message"
+              rows={6}
+              cols={31}
+            />
+            <button className={styles.button}>
+              <div className={styles.buttonText}>Send message</div>
+            </button>
           </div>
-          <div className={styles.clockIconFrameWrapper}>
-            <div className={styles.clockIconFrame}>
-              <img
-                className={styles.clockIcon}
-                loading="lazy"
-                alt=""
-                src="/clock-icon.svg"
-              />
-              <div className={styles.sunday9Am}>SUNDAY 9 AM - 12 AM</div>
+          <div className={styles.emailInput}>
+            <div className={styles.queryRelatedInput}>
+              <div className={styles.address}>Address</div>
+              <h3 className={styles.pOBox37Container}>
+                <p className={styles.pOBox37}>P. O. Box-37,</p>
+                <p className={styles.perumbavoorPO}>Perumbavoor. P. O.</p>
+                <p className={styles.kochiErnakulam}>{`Kochi - Ernakulam, `}</p>
+                <p className={styles.kerala683642India}>Kerala-683642, India</p>
+              </h3>
             </div>
-          </div>
-          <div className={styles.membersSection}>
-            <div className={styles.membersSection1}>
-              <div className={styles.membersSection2}>
-                <div className={styles.membersSection3}>
-                  <div className={styles.noMainSt}>
-                    <div className={styles.icon}>
-                      <div className={styles.membersSection4} />
-                      <div className={styles.circle} />
-                    </div>
-                  </div>
-                  <div className={styles.pOBox37Container}>
-                    <p className={styles.pOBox37}>P. O. Box-37,</p>
-                    <p className={styles.perumbavoorPO}>Perumbavoor. P. O.</p>
-                    <p
-                      className={styles.kochiErnakulam}
-                    >{`Kochi - Ernakulam, `}</p>
-                    <p className={styles.kerala683642India}>
-                      Kerala-683642, India
-                    </p>
-                  </div>
-                </div>
+            <div className={styles.phoneNumberText}>
+              <div className={styles.contactDetails}>Contact Details</div>
+              <b className={styles.ph9194466}>Ph: +91 94466 36378</b>
+              <h3 className={styles.finsweetexamplecom}>
+                finsweet@example.com
+              </h3>
+            </div>
+            <div className={styles.socialFrames}>
+              <div className={styles.findUsHere}>Find us here</div>
+              <div className={styles.instagramComponent}>
+                <img
+                  className={styles.facebookNegative}
+                  loading="lazy"
+                  alt=""
+                  src="/facebook--negative1.svg"
+                />
+                <img
+                  className={styles.twitterNegative}
+                  loading="lazy"
+                  alt=""
+                  src="/twitter--negative1.svg"
+                />
+                <img
+                  className={styles.instaFillIcon}
+                  loading="lazy"
+                  alt=""
+                  src="/insta-fill@2x.png"
+                />
               </div>
-              <h1 className={styles.comeJoinUs}>COME JOIN US</h1>
             </div>
           </div>
         </div>

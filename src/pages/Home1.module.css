@@ -1,0 +1,292 @@
+.httpswwwpexelscomphotopIcon {
+  position: absolute;
+  top: 0;
+  left: 45.688rem;
+  border-radius: var(--br-11xl);
+  width: 18.313rem;
+  height: 24rem;
+  object-fit: cover;
+}
+.httpswwwpexelscomphotomIcon {
+  position: absolute;
+  top: 4rem;
+  left: 19.813rem;
+  border-radius: var(--br-13xl);
+  width: 24.375rem;
+  height: 32rem;
+  object-fit: cover;
+}
+.httpswwwpexelscomphotoaIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  width: 18.313rem;
+  height: 24rem;
+  object-fit: cover;
+}
+.gallery {
+  position: absolute;
+  top: 19.188rem;
+  left: 0;
+  width: 64rem;
+  height: 36rem;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: var(--label-02);
+  color: var(--black);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-45xl);
+  background-color: var(--primary);
+  position: absolute;
+  top: calc(50% + 97.5px);
+  left: calc(50% - 107px);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button:hover,
+.navButton:hover {
+  background-color: var(--color-burlywood);
+}
+.loremIpsumDolor,
+.loveAndCompassion {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+}
+.loremIpsumDolor {
+  top: 8.188rem;
+  line-height: 1.5rem;
+  width: 52.875rem;
+  opacity: 0.78;
+}
+.loveAndCompassion {
+  margin: 0;
+  top: 2.188rem;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  width: 34rem;
+}
+.heading,
+.subHeadline {
+  position: absolute;
+  top: 0;
+}
+.subHeadline {
+  right: 14.313rem;
+  font-size: var(--label-02-size);
+  text-transform: uppercase;
+  text-align: left;
+}
+.heading {
+  right: 9.438rem;
+  width: 34rem;
+  height: 6.188rem;
+  font-size: var(--heading-h2-size);
+}
+.content {
+  position: absolute;
+  top: calc(50% - 441.5px);
+  left: calc(50% - 418px);
+  width: 52.875rem;
+  height: 20.188rem;
+}
+.welcome {
+  position: absolute;
+  top: 96.375rem;
+  left: 14.875rem;
+  width: 64rem;
+  height: 55.188rem;
+  text-align: center;
+  font-size: var(--label-02-size);
+  color: var(--black1);
+  font-family: var(--label-02);
+}
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+}
+.buttonText1 {
+  position: relative;
+  font-size: var(--label-02-size);
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-family: var(--label-02);
+  color: var(--black);
+  text-align: center;
+}
+.navButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-29xl);
+  background-color: var(--primary);
+  position: absolute;
+  top: calc(50% - 28px);
+  left: calc(50% + 460.5px);
+  border-radius: var(--br-xs);
+  backdrop-filter: blur(80px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.aboutUs,
+.home1,
+.ministry {
+  position: absolute;
+  text-transform: uppercase;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.ministry {
+  width: 28.73%;
+  top: 38.75%;
+  left: 71.27%;
+  display: inline-block;
+}
+.aboutUs,
+.home1 {
+  white-space: nowrap;
+}
+.aboutUs {
+  width: 29.27%;
+  top: 38.75%;
+  left: 37.13%;
+  display: inline-block;
+}
+.home1 {
+  margin: 0;
+  width: 18.97%;
+  top: 32.5%;
+  left: 2.17%;
+  font-size: var(--heading-h5-size);
+  text-decoration: underline;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.divider {
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  opacity: 0.1;
+}
+.agmi,
+.divider,
+.linksList {
+  position: absolute;
+  top: 0;
+}
+.linksList {
+  height: 100%;
+  width: 24.6%;
+  right: 33.87%;
+  bottom: 0;
+  left: 41.53%;
+}
+.agmi {
+  margin: 0;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 2.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 4.375rem;
+  height: 2.063rem;
+  white-space: nowrap;
+}
+.abundantGraceMinistries,
+.logo {
+  position: absolute;
+  cursor: pointer;
+}
+.logo {
+  top: 0.313rem;
+  left: 17.688rem;
+  width: 4.375rem;
+  height: 2.125rem;
+  overflow: hidden;
+  font-size: var(--heading-h4-size);
+}
+.abundantGraceMinistries {
+  top: 3.063rem;
+  left: 12.938rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.agmiLogo1Icon {
+  position: absolute;
+  height: calc(100% - 20px);
+  width: 3.4%;
+  top: 0.625rem;
+  right: 88.47%;
+  bottom: 0.625rem;
+  left: 8.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--label-02-size);
+  color: var(--white);
+  font-family: var(--label-02);
+}
+.home {
+  width: 100%;
+  height: 222.75rem;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .loveAndCompassion {
+    font-size: var(--font-size-19xl);
+    line-height: 3.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .loveAndCompassion {
+    font-size: var(--font-size-10xl);
+    line-height: 2.375rem;
+  }
+}

@@ -9,97 +9,161 @@
   left: 0;
   background-color: var(--color-gray-100);
 }
+.agmiLogo1Icon {
+  height: 3.75rem;
+  width: 3.188rem;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
 .agmi {
-  margin-bottom: -0.25rem;
   margin: 0;
   position: relative;
   font-size: inherit;
   letter-spacing: -0.01em;
-  line-height: 4rem;
+  line-height: 2.063rem;
   text-transform: uppercase;
   font-weight: 700;
   font-family: inherit;
   white-space: nowrap;
 }
-.home {
-  height: 3.75rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-xl) 0;
-  box-sizing: border-box;
-}
-.logo1 {
-  background-color: var(--color-gray-100);
-  overflow: hidden;
+.logo,
+.navbuttonINSTANCE {
   display: flex;
   flex-direction: row;
+}
+.logo {
+  overflow: hidden;
   align-items: center;
   justify-content: center;
+  padding: 0 0 var(--padding-12xs);
   cursor: pointer;
   z-index: 1;
 }
-.divider,
-.dividerLine {
-  height: 5rem;
+.navbuttonINSTANCE {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+}
+.abundantGraceMinistries {
+  position: relative;
+  font-size: var(--label-02-size);
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+}
+.linkslistFRAME {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.625rem 0;
+}
+.agmiText {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.agmiText,
+.backgroundRECTANGLE,
+.navbarINSTANCE {
+  display: flex;
+  justify-content: flex-start;
+}
+.navbarINSTANCE {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 2.125rem;
+}
+.backgroundRECTANGLE {
+  width: 20.313rem;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-8xs);
   box-sizing: border-box;
+  max-width: 100%;
+}
+.divider,
+.home {
+  position: relative;
 }
 .divider {
-  width: 0.125rem;
-  position: relative;
-  border-right: 2px solid var(--white);
+  align-self: stretch;
+  width: 0;
   opacity: 0.1;
 }
-.dividerLine {
+.home {
+  width: 4.375rem;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+}
+.addressText {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-sm) 0 0;
-}
-.home1 {
-  position: relative;
-  text-transform: uppercase;
+  padding: var(--padding-xl) 0;
   text-align: right;
-  cursor: pointer;
 }
 .aboutUs {
-  white-space: nowrap;
-}
-.aboutUs,
-.review,
-.sermon {
+  align-self: stretch;
   position: relative;
   text-transform: uppercase;
+  white-space: nowrap;
   cursor: pointer;
 }
-.linksList,
-.logo {
+.addressText1 {
+  flex: 0.9153;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-3xs) var(--padding-xl) 0;
+}
+.ministry {
+  width: 6.625rem;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.linksList {
+  width: 23.063rem;
+  flex: 1;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  gap: var(--gap-5xs);
   max-width: 100%;
-}
-.linksList {
-  flex: 1;
-  gap: var(--gap-29xl);
   z-index: 1;
-  text-align: left;
-  font-size: var(--label-02-size);
-  color: var(--color-gray-300);
 }
-.logo {
-  width: 40.875rem;
-  gap: 0 5.5rem;
+.buttonText,
+.queryInput {
+  font-size: var(--label-02-size);
+}
+.queryInput {
+  align-self: stretch;
+  width: 25.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  color: var(--color-gray-300);
 }
 .buttonText {
   position: relative;
-  font-size: var(--label-02-size);
   line-height: 1rem;
   text-transform: uppercase;
-  font-family: var(--paragraph);
+  font-family: var(--label-02);
   color: var(--black);
   text-align: center;
 }
@@ -112,7 +176,7 @@
 .navButton {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-xl) var(--padding-25xl) var(--padding-xl)
+  padding: var(--padding-xl) var(--padding-26xl) var(--padding-xl)
     var(--padding-29xl);
   background-color: var(--primary);
   border-radius: var(--br-xs);
@@ -126,41 +190,52 @@
 }
 .navbar {
   align-self: stretch;
+  height: 5rem;
   justify-content: space-between;
-  padding: 0 var(--padding-91xl) 0 var(--padding-56xl);
+  padding: 0 var(--padding-90xl) 0 var(--padding-103xl);
   box-sizing: border-box;
   position: sticky;
   top: 0;
   z-index: 99;
   max-width: 100%;
   gap: var(--gap-xl);
-  text-align: right;
-  font-size: var(--heading-h2-size);
+  text-align: left;
+  font-size: var(--heading-h4-size);
   color: var(--white);
-  font-family: var(--paragraph);
+  font-family: var(--label-02);
 }
-@media screen and (max-width: 750px) {
-  .linksList {
+@media screen and (max-width: 1100px) {
+  .abundantGraceMinistries {
     display: none;
   }
-  .logo {
-    width: 14.563rem;
-    gap: 0 5.5rem;
+}
+@media screen and (max-width: 750px) {
+  .agmi {
+    font-size: var(--font-size-7xl);
+    line-height: 2.188rem;
   }
   .navbar {
-    padding-left: var(--padding-18xl);
-    padding-right: var(--padding-36xl);
+    padding-left: var(--padding-42xl);
+    padding-right: var(--padding-35xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .linksList {
-    gap: var(--gap-29xl);
+  .agmi {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
   }
-  .logo {
-    gap: 0 5.5rem;
+  .navbarINSTANCE {
+    gap: 0 2.125rem;
+  }
+  .linksList {
+    display: none;
+  }
+  .queryInput {
+    width: 2.688rem;
   }
   .navbar {
+    padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
