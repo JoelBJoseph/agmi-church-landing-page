@@ -22,18 +22,22 @@
 }
 @media screen and (max-width: 1275px) {
   .footerBackgroundParent {
-    gap: 8rem 0;
+    gap: 4rem 0;
   }
 }
 @media screen and (max-width: 750px) {
-  .footerBackgroundParent,
+  .footerBackgroundParent {
+    gap: 2rem 0;
+  }
   .sermons {
-    gap: 8rem 0;
+    gap: 4rem 0;
   }
 }
 @media screen and (max-width: 450px) {
-  .footerBackgroundParent,
+  .footerBackgroundParent {
+    gap: 1rem 0;
+  }
   .sermons {
-    gap: 8rem 0;
+    gap: 2rem 0;
   }
 }

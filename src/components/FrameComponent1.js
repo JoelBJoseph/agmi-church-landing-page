@@ -19,7 +19,7 @@ const FrameComponent1 = () => {
           src="/httpswwwpexelscomphotoabeardedmanpraying5206040@2x.png"
         />
       </div>
-      <div className={styles.buttonInstance}>
+      <div className={styles.buttonParent}>
         <button className={styles.button} onClick={onButtonClick}>
           <div className={styles.buttonText}>Read more</div>
         </button>

@@ -1,298 +1,76 @@
-.heading {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  letter-spacing: -0.01em;
-  line-height: 4rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  max-width: 100%;
-}
-.background {
-  align-self: stretch;
-  height: 23.75rem;
-  position: relative;
-  background-color: var(--light-orange);
-  display: none;
-}
-.icon {
-  width: 3rem;
-  height: 3rem;
-}
-.aboutUs,
-.icon,
+.findFulfillmentAnd,
 .loremIpsumDolor {
   position: relative;
-  z-index: 1;
+  display: inline-block;
 }
-.aboutUs {
+.findFulfillmentAnd {
   margin: 0;
+  width: 25.625rem;
   font-size: inherit;
   letter-spacing: -0.01em;
   line-height: 2.75rem;
   text-transform: uppercase;
   font-weight: 700;
   font-family: inherit;
+  max-width: 100%;
 }
 .loremIpsumDolor {
-  width: 15.688rem;
+  width: 31.25rem;
   font-size: var(--paragraph-size);
   line-height: 1.5rem;
-  display: inline-block;
+  color: var(--color-gray-400);
 }
-.aboutUsTab,
-.givingBackTab {
+.inspirationalTeamFrame {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 0.5rem 0;
-}
-.aboutUsTab {
-  gap: 1.5rem 0;
-}
-.bottomLine {
-  align-self: stretch;
-  height: 1rem;
-  position: relative;
-  background-color: var(--primary);
-  z-index: 1;
-}
-.background1,
-.item {
-  background-color: var(--light-orange);
-}
-.item {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-61xl) 0 0;
+  padding: var(--padding-xl) 0;
   box-sizing: border-box;
-  gap: var(--gap-45xl);
-  min-width: 19.25rem;
+  gap: 1rem 0;
   max-width: 100%;
 }
-.background1 {
-  align-self: stretch;
-  height: 23.75rem;
-  position: relative;
-  display: none;
-}
-.getInvolved,
-.icon1 {
-  position: relative;
-  z-index: 1;
-}
-.icon1 {
-  width: 3rem;
-  height: 3rem;
-}
-.getInvolved {
-  margin: 0;
-  font-size: inherit;
-  letter-spacing: -0.01em;
-  line-height: 2.75rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
-}
-.loremIpsumDolor1 {
-  width: 15.688rem;
-  position: relative;
-  font-size: var(--paragraph-size);
-  line-height: 1.5rem;
-  display: inline-block;
-  z-index: 1;
-}
-.getInvolvedParent,
-.iconParent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 0.5rem 0;
-}
-.iconParent {
-  gap: 1.5rem 0;
-}
-.bottomLine1 {
-  align-self: stretch;
-  height: 1rem;
-  position: relative;
-  background-color: var(--primary);
-  z-index: 1;
-}
-.background2,
-.item1 {
-  background-color: var(--light-orange);
-}
-.item1 {
+.httpsunsplashcomphotos3mIcon {
+  height: 20rem;
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-61xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-45xl);
-  min-width: 19.25rem;
+  position: relative;
   max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 20.313rem;
 }
-.background2 {
-  align-self: stretch;
-  height: 23.75rem;
-  position: relative;
-  display: none;
-}
-.givingBack,
-.icon2 {
-  position: relative;
-  z-index: 1;
-}
-.icon2 {
-  width: 3rem;
-  height: 3rem;
-}
-.givingBack {
-  margin: 0;
-  font-size: inherit;
-  letter-spacing: -0.01em;
-  line-height: 2.75rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
-}
-.loremIpsumDolor2 {
-  width: 15.688rem;
-  position: relative;
-  font-size: var(--paragraph-size);
-  line-height: 1.5rem;
-  display: inline-block;
-  z-index: 1;
-}
-.givingBackParent,
-.iconGroup {
+.instagramFillFrame,
+.subNavigation {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 0.5rem 0;
-}
-.iconGroup {
-  gap: 1.5rem 0;
-}
-.bottomLine2 {
-  align-self: stretch;
-  height: 1rem;
-  position: relative;
-  background-color: var(--primary);
-  z-index: 1;
-}
-.item2,
-.list {
-  display: flex;
-  max-width: 100%;
-}
-.item2 {
-  flex: 1;
-  background-color: var(--light-orange);
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-61xl) var(--padding-12xs) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-45xl);
-  min-width: 19.25rem;
-}
-.list {
-  align-self: stretch;
   flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.instagramFillFrame {
+  flex: 1;
   flex-wrap: wrap;
+  align-items: center;
+  gap: 0 1.5rem;
+}
+.subNavigation {
+  width: 66.813rem;
   align-items: flex-start;
-  justify-content: center;
-  gap: var(--gap-5xl);
+  padding: 0 var(--padding-xl) var(--padding-13xl) var(--padding-6xl);
+  box-sizing: border-box;
   text-align: left;
   font-size: var(--heading-h4-size);
-}
-.quoteIcon,
-.testimonialBackground {
-  display: flex;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.quoteIcon {
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  gap: 4rem 0;
-}
-.testimonialBackground {
-  width: 82.625rem;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0 var(--padding-3xl) var(--padding-144xl) var(--padding-xl);
-  box-sizing: border-box;
-  text-align: center;
-  font-size: var(--heading-h2-size);
   color: var(--bl);
   font-family: var(--paragraph);
 }
 @media screen and (max-width: 750px) {
-  .heading {
-    font-size: var(--font-size-19xl);
-    line-height: 3.188rem;
-  }
-  .aboutUs,
-  .getInvolved,
-  .givingBack {
+  .findFulfillmentAnd {
     font-size: var(--font-size-7xl);
     line-height: 2.188rem;
   }
-  .quoteIcon {
-    gap: 4rem 0;
-  }
-  .testimonialBackground {
-    padding-bottom: var(--padding-87xl);
-    box-sizing: border-box;
-  }
 }
 @media screen and (max-width: 450px) {
-  .heading {
-    font-size: var(--font-size-10xl);
-    line-height: 2.375rem;
-  }
-  .aboutUs {
+  .findFulfillmentAnd {
     font-size: var(--font-size-lgi);
     line-height: 1.625rem;
-  }
-  .item {
-    gap: var(--gap-45xl);
-    padding-top: var(--padding-33xl);
-    box-sizing: border-box;
-  }
-  .getInvolved {
-    font-size: var(--font-size-lgi);
-    line-height: 1.625rem;
-  }
-  .item1 {
-    gap: var(--gap-45xl);
-    padding-top: var(--padding-33xl);
-    box-sizing: border-box;
-  }
-  .givingBack {
-    font-size: var(--font-size-lgi);
-    line-height: 1.625rem;
-  }
-  .item2 {
-    gap: var(--gap-45xl);
-    padding-top: var(--padding-33xl);
-    box-sizing: border-box;
-  }
-  .quoteIcon {
-    gap: 4rem 0;
   }
 }

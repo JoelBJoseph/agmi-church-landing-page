@@ -1,173 +1,264 @@
-.imageIcon {
-  width: 94.563rem;
-  height: 100%;
-  position: absolute;
-  margin: 0 !important;
-  top: 0;
-  bottom: 0;
-  left: -0.687rem;
-  max-height: 100%;
-  object-fit: cover;
-}
 .welcomeToOur {
-  width: 12.925rem;
-  display: inline-block;
-  z-index: 1;
-}
-.becomeAPart,
-.buttonText,
-.welcomeToOur {
+  flex: 1;
   position: relative;
   text-transform: uppercase;
+  flex-shrink: 0;
 }
-.becomeAPart {
-  margin: 0;
-  width: 37.319rem;
-  font-size: inherit;
-  letter-spacing: -0.01em;
-  line-height: 5.125rem;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
-  z-index: 1;
-}
-.buttonText {
-  font-size: var(--paragraph-size);
-  line-height: 1rem;
-  font-family: var(--paragraph);
-  color: var(--black);
-  text-align: center;
-}
-.button {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-5xl) var(--padding-47xl) var(--padding-5xl)
-    var(--padding-45xl);
-  background-color: var(--primary);
-  border-radius: var(--br-xs);
+.contactLink {
+  width: 13.125rem;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  z-index: 1;
-}
-.button:hover {
-  background-color: var(--color-burlywood);
-}
-.givingBackSection,
-.missionStatement {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
 }
-.givingBackSection {
-  gap: 2rem 0;
-  font-size: var(--heading-h1-size);
+.loveAndCompassion {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-h2-size);
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
 }
-.missionStatement {
+.sermonsLink {
+  width: 36.063rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   gap: 1rem 0;
   max-width: 100%;
 }
-.navButton,
-.welcome {
-  box-sizing: border-box;
-}
-.welcome {
-  width: 1.138rem;
-  height: 0.125rem;
-  position: relative;
-  border-top: 2px solid var(--primary);
-  z-index: 1;
-}
-.navButton {
-  height: 0.75rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-xs) 0 0;
-}
-.aChanceFor {
-  width: 19.419rem;
+.emailInput {
+  width: 50.906rem;
   position: relative;
   line-height: 1.5rem;
   display: inline-block;
   flex-shrink: 0;
-  z-index: 1;
+  max-width: 100%;
 }
-.homeHeader,
-.homeHeaderWrapper,
-.linksList {
+.inspirationalTeamFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-gray-400);
+}
+.httpswwwpexelscomphotoaIcon {
+  height: 24rem;
+  width: 19.419rem;
+  position: relative;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.httpswwwpexelscomphotomIcon {
+  height: 32rem;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-13xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 16.813rem;
+}
+.httpswwwpexelscomphotopIcon {
+  height: 24rem;
+  width: 19.419rem;
+  position: relative;
+  border-radius: var(--br-11xl);
+  object-fit: cover;
+}
+.logoFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+  gap: 0 1.625rem;
+  max-width: 100%;
+}
+.ourMission,
+.strivingForA {
+  position: relative;
+  text-transform: uppercase;
+}
+.strivingForA {
+  margin: 0;
+  width: 24.588rem;
+  font-size: var(--heading-h4-size);
+  letter-spacing: -0.01em;
+  line-height: 2.75rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.arrangeBibleConferences,
+.establishLocalChurches,
+.helpThePoor,
+.shareTheGospel,
+.trainMenAnd {
+  margin-bottom: false;
+}
+.trainMenAndWomenInTheolog {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.trainMenAndContainer {
+  width: 24.656rem;
+  position: relative;
+  line-height: 1.5rem;
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+.linksFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem 0;
+  min-width: 24.688rem;
+  max-width: 100%;
+}
+.whatWeDo {
+  position: relative;
+  text-transform: uppercase;
+}
+.bringingPeaceAnd,
+.loremIpsumDolor {
+  width: 24.588rem;
+  position: relative;
+  display: inline-block;
+}
+.bringingPeaceAnd {
+  margin: 0;
+  font-size: var(--heading-h4-size);
+  letter-spacing: -0.01em;
+  line-height: 2.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.loremIpsumDolor {
+  line-height: 1.5rem;
+  color: var(--color-gray-400);
+}
+.instagramIconFrame,
+.messageInstance {
   display: flex;
   align-items: flex-start;
+  max-width: 100%;
+}
+.instagramIconFrame {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem 0;
+  min-width: 24.563rem;
+}
+.messageInstance {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: 0 1.625rem;
+  text-align: left;
+}
+.benefitsOfOur {
+  margin: 0;
+  width: 30.563rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.logo,
+.twitterFrame {
+  display: flex;
   justify-content: flex-start;
   max-width: 100%;
 }
-.linksList {
+.twitterFrame {
   flex-direction: row;
-  gap: 0 0.813rem;
-}
-.homeHeader,
-.homeHeaderWrapper {
+  align-items: flex-start;
+  padding: 0 var(--padding-11xl) 0 0;
   box-sizing: border-box;
+  font-size: var(--heading-h2-size);
 }
-.homeHeader {
-  flex: 1;
-  flex-direction: column;
-  padding: var(--padding-109xl) var(--padding-81xl);
-  position: relative;
-  gap: var(--gap-45xl);
-}
-.homeHeaderWrapper {
+.logo {
   align-self: stretch;
-  flex-direction: row;
-  padding: 0 0 var(--padding-144xl);
-  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem 0;
+  text-align: center;
   font-size: var(--paragraph-size);
-  color: var(--white);
+  color: var(--bl);
   font-family: var(--paragraph);
 }
 @media screen and (max-width: 1100px) {
-  .homeHeader {
-    gap: var(--gap-45xl);
-    padding-left: var(--padding-31xl);
-    padding-right: var(--padding-31xl);
-    box-sizing: border-box;
+  .instagramIconFrame,
+  .linksFrame {
+    flex: 1;
   }
-  .homeHeaderWrapper {
-    padding-bottom: var(--padding-87xl);
-    box-sizing: border-box;
+  .messageInstance {
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 750px) {
-  .becomeAPart {
-    font-size: var(--font-size-32xl);
-    line-height: 4.125rem;
+  .loveAndCompassion {
+    font-size: var(--font-size-19xl);
+    line-height: 3.188rem;
   }
-  .givingBackSection {
-    gap: 2rem 0;
+  .strivingForA {
+    font-size: var(--font-size-7xl);
+    line-height: 2.188rem;
   }
-  .homeHeader {
-    padding-top: var(--padding-64xl);
-    padding-bottom: var(--padding-64xl);
-    box-sizing: border-box;
+  .linksFrame {
+    min-width: 100%;
+  }
+  .bringingPeaceAnd {
+    font-size: var(--font-size-7xl);
+    line-height: 2.188rem;
+  }
+  .instagramIconFrame {
+    min-width: 100%;
+  }
+  .benefitsOfOur {
+    font-size: var(--font-size-19xl);
+    line-height: 3.188rem;
+  }
+  .logo {
+    gap: 1rem 0;
   }
 }
 @media screen and (max-width: 450px) {
-  .becomeAPart {
-    font-size: var(--font-size-19xl);
-    line-height: 3.063rem;
+  .loveAndCompassion {
+    font-size: var(--font-size-10xl);
+    line-height: 2.375rem;
   }
-  .homeHeader {
-    gap: var(--gap-45xl);
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
+  .bringingPeaceAnd,
+  .strivingForA {
+    font-size: var(--font-size-lgi);
+    line-height: 1.625rem;
   }
-  .homeHeaderWrapper {
-    padding-bottom: var(--padding-50xl);
-    box-sizing: border-box;
+  .benefitsOfOur {
+    font-size: var(--font-size-10xl);
+    line-height: 2.375rem;
   }
 }

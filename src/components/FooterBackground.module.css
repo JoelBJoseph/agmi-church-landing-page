@@ -42,13 +42,13 @@
   font-size: var(--heading-h5-size);
   color: var(--color-dimgray-200);
 }
-.bibleTrainingParent,
+.inputMailField,
 .topBar {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.bibleTrainingParent {
+.inputMailField {
   flex: 1;
   flex-direction: column;
   gap: 0.75rem 0;
@@ -98,13 +98,13 @@
   min-width: 34.313rem;
   min-height: 32rem;
 }
-.contentParent,
-.footerBackground {
+.footerBackground,
+.twitterIcon {
   align-self: stretch;
   display: flex;
   max-width: 100%;
 }
-.contentParent {
+.twitterIcon {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
@@ -126,7 +126,7 @@
   .content {
     flex: 1;
   }
-  .contentParent {
+  .twitterIcon {
     flex-wrap: wrap;
   }
 }
@@ -153,7 +153,7 @@
     min-width: 100%;
   }
   .footerBackground {
-    gap: 5.063rem 0;
+    gap: 2.5rem 0;
   }
 }
 @media screen and (max-width: 450px) {
@@ -173,12 +173,12 @@
     line-height: 0.625rem;
   }
   .content {
-    gap: var(--gap-33xl);
+    gap: var(--gap-7xl);
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
   .footerBackground {
-    gap: 5.063rem 0;
+    gap: 1.25rem 0;
   }
 }

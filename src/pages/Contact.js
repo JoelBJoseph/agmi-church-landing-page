@@ -1,31 +1,12 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar1 from "../components/Navbar1";
 import InputFormFrame from "../components/InputFormFrame";
 import Footer from "../components/Footer";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
   const navigate = useNavigate();
-
-  const onHOMETextClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
-  const onAboutUsTextClick = useCallback(() => {
-    navigate("/about-us");
-  }, [navigate]);
-
-  const onSermonsTextClick = useCallback(() => {
-    navigate("/sermons");
-  }, [navigate]);
-
-  const onContactTextClick = useCallback(() => {
-    navigate("/contact");
-  }, [navigate]);
-
-  const onButtonClick = useCallback(() => {
-    navigate("/contact");
-  }, [navigate]);
 
   const onAgmiLogo1ImageClick = useCallback(() => {
     navigate("/");
@@ -47,7 +28,7 @@ const Contact = () => {
     navigate("/about-us");
   }, [navigate]);
 
-  const onMinistryTextClick = useCallback(() => {
+  const onMinistryText1Click = useCallback(() => {
     navigate("/sermons");
   }, [navigate]);
 
@@ -55,54 +36,37 @@ const Contact = () => {
     navigate("/contact");
   }, [navigate]);
 
+  const onHOMETextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  const onAboutUsTextClick = useCallback(() => {
+    navigate("/about-us");
+  }, [navigate]);
+
+  const onMinistryTextClick = useCallback(() => {
+    navigate("/sermons");
+  }, [navigate]);
+
+  const onContactTextClick = useCallback(() => {
+    navigate("/contact");
+  }, [navigate]);
+
+  const onButtonClick = useCallback(() => {
+    navigate("/contact");
+  }, [navigate]);
+
   return (
     <div className={styles.contact}>
-      <div className={styles.navbar}>
-        <header className={styles.background} />
-        <div className={styles.backgroundRECTANGLE}>
-          <div className={styles.navbarINSTANCE}>
-            <img
-              className={styles.agmiLogo1Icon}
-              loading="lazy"
-              alt=""
-              src="/agmilogo-11@2x.png"
-              onClick={onAgmiLogo1ImageClick}
-            />
-            <div className={styles.agmiText}>
-              <div className={styles.linkslistFRAME}>
-                <div className={styles.navbuttonINSTANCE}>
-                  <div className={styles.logo} onClick={onLogoContainerClick}>
-                    <h1 className={styles.agmi}>AGMI</h1>
-                  </div>
-                </div>
-                <div
-                  className={styles.abundantGraceMinistries}
-                  onClick={onAbundantGraceMinistriesClick}
-                >
-                  Abundant Grace Ministries India
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.linksList}>
-          <div className={styles.homeLinkText}>
-            <div className={styles.divider} />
-            <div className={styles.home} onClick={onHomeTextClick}>
-              Home
-            </div>
-          </div>
-          <div className={styles.aboutUs} onClick={onAboutUsText1Click}>
-            About us
-          </div>
-          <div className={styles.ministry} onClick={onMinistryTextClick}>
-            ministry
-          </div>
-        </div>
-        <button className={styles.navButton} onClick={onNavButtonClick}>
-          <div className={styles.buttonText}>Contact us</div>
-        </button>
-      </div>
+      <Navbar1
+        onAgmiLogo1ImageClick={onAgmiLogo1ImageClick}
+        onLogoContainerClick={onLogoContainerClick}
+        onAbundantGraceMinistriesClick={onAbundantGraceMinistriesClick}
+        onHomeTextClick={onHomeTextClick}
+        onAboutUsText1Click={onAboutUsText1Click}
+        onMinistryText1Click={onMinistryText1Click}
+        onNavButtonClick={onNavButtonClick}
+      />
       <section className={styles.addressText}>
         <div className={styles.header}>
           <img
@@ -119,7 +83,7 @@ const Contact = () => {
         socialWrapper="/social-wrapper@2x.png"
         onHOMETextClick={onHOMETextClick}
         onAboutUsTextClick={onAboutUsTextClick}
-        onSermonsTextClick={onSermonsTextClick}
+        onMinistryTextClick={onMinistryTextClick}
         onContactTextClick={onContactTextClick}
         onButton1Click={onButtonClick}
       />

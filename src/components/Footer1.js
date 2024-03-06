@@ -13,7 +13,7 @@ const Footer1 = () => {
     navigate("/about-us");
   }, [navigate]);
 
-  const onSermonsTextClick = useCallback(() => {
+  const onMinistryTextClick = useCallback(() => {
     navigate("/sermons");
   }, [navigate]);
 
@@ -55,8 +55,8 @@ const Footer1 = () => {
           </div>
         </div>
         <div className={styles.footerContent}>
-          <div className={styles.frameParent}>
-            <div className={styles.messageFillWrapper}>
+          <div className={styles.socialMediaIconsFrameParent}>
+            <div className={styles.socialMediaIconsFrame}>
               <img
                 className={styles.messageFillIcon}
                 loading="lazy"
@@ -84,8 +84,8 @@ const Footer1 = () => {
               <div className={styles.aboutUs} onClick={onAboutUsTextClick}>
                 About us
               </div>
-              <div className={styles.sermons} onClick={onSermonsTextClick}>
-                Sermons
+              <div className={styles.ministry} onClick={onMinistryTextClick}>
+                ministry
               </div>
               <div className={styles.contact} onClick={onContactTextClick}>
                 contact

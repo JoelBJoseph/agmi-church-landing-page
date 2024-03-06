@@ -7,10 +7,10 @@ const FooterBackground = () => {
       <h1 className={styles.joinUsAnd}>
         join us and become part of something great
       </h1>
-      <div className={styles.contentParent}>
+      <div className={styles.twitterIcon}>
         <div className={styles.content}>
           <div className={styles.background} />
-          <div className={styles.bibleTrainingParent}>
+          <div className={styles.inputMailField}>
             <h1 className={styles.bibleTraining}>bible training</h1>
             <h3 className={styles.reachingEquippingSending}>
               Reaching, Equipping, Sending, Serving

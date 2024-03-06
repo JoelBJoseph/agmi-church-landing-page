@@ -1,109 +1,64 @@
-import FrameComponent11 from "./FrameComponent1";
-import FrameComponent4 from "./FrameComponent";
+import FrameComponent3 from "./FrameComponent3";
+import FrameComponent2 from "./FrameComponent2";
 import styles from "./ItemList.module.css";
 
 const ItemList = () => {
   return (
-    <section className={styles.itemList}>
-      <div className={styles.homeLink}>
-        <div className={styles.aboutUsLink}>
-          <div className={styles.sermonsLink}>
-            <div className={styles.contactLink}>
-              <div className={styles.welcomeToOur}>Welcome to our ministry</div>
+    <section className={styles.sectionTitle}>
+      <FrameComponent3 />
+      <FrameComponent2
+        findFulfillmentAndJoy="find fulfillment and joy"
+        httpsunsplashcomphotos3MW="/httpsunsplashcomphotos3mwdi5-6hrc@2x.png"
+      />
+      <div className={styles.subNavigation}>
+        <div className={styles.httpsunsplashcomphotos3xParent}>
+          <img
+            className={styles.httpsunsplashcomphotos3xIcon}
+            loading="lazy"
+            alt=""
+            src="/httpsunsplashcomphotos3xmcv5mjzpw@2x.png"
+          />
+          <div className={styles.inputFieldWrapper}>
+            <div className={styles.inputField}>
+              <h1 className={styles.leadershipTraining}>LEADERSHIP TRAINING</h1>
+              <div className={styles.thereIsA}>
+                There is a lack of effective trained leadership in so many
+                communities today because of several reasons. They needed to
+                have a vision. More equipped leaders needed too. Leader
+                Development is an initiative to raise more visionary, effective,
+                focused leaders who will strive for the development of the
+                community. We train men and women to bring them to the qualified
+                Christian leaders for the present and future.
+              </div>
             </div>
-            <h1 className={styles.loveAndCompassion}>Love and compassion</h1>
-          </div>
-          <div className={styles.inspirationalTeamFrame}>
-            <div className={styles.emailInput}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum.
-            </div>
-          </div>
-          <div className={styles.nameFrame}>
-            <img
-              className={styles.httpswwwpexelscomphotoaIcon}
-              loading="lazy"
-              alt=""
-              src="/httpswwwpexelscomphotoabeardedmanpraying52060401@2x.png"
-            />
-            <img
-              className={styles.httpswwwpexelscomphotomIcon}
-              loading="lazy"
-              alt=""
-              src="/httpswwwpexelscomphotomanandwomanreadingbookwhilesittingonpews84684701@2x.png"
-            />
-            <img
-              className={styles.httpswwwpexelscomphotopIcon}
-              loading="lazy"
-              alt=""
-              src="/httpswwwpexelscomphotopeoplesittingonbrownpews86741511@2x.png"
-            />
           </div>
         </div>
-        <div className={styles.twitterIconFrame}>
-          <div className={styles.instagramIconFrame}>
-            <div className={styles.ourMission}>{`OUR MISSIOn & Vision`}</div>
-            <h1 className={styles.strivingForA}>
-              STRIVING FOR A BETTER TOMORROW
-            </h1>
+      </div>
+      <FrameComponent2
+        findFulfillmentAndJoy="charity events"
+        httpsunsplashcomphotos3MW="/httpsunsplashcomphotos3mwdi5-6hrc-1@2x.png"
+        propWidth="unset"
+      />
+      <div className={styles.frameFrame}>
+        <div className={styles.httpsunsplashcomphotos3xGroup}>
+          <img
+            className={styles.httpsunsplashcomphotos3xIcon1}
+            alt=""
+            src="/httpsunsplashcomphotos3xmcv5mjzpw-1@2x.png"
+          />
+          <div className={styles.linksColumnFrame}>
+            <h1 className={styles.allAreWelcome}>All are welcome</h1>
             <div className={styles.loremIpsumDolor}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum.
-            </div>
-          </div>
-          <div className={styles.instagramIconFrame1}>
-            <div className={styles.whatWeDo}>WHAT WE DO</div>
-            <h1 className={styles.bringingPeaceAnd}>
-              BRINgING PEACE AND JOY TO THE WORLD
-            </h1>
-            <div className={styles.loremIpsumDolor1}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum.
+              reprehenderit.
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.subheader}>
-        <div className={styles.containerFrame}>
-          <h1 className={styles.benefitsOfOur}>
-            THE benefits of joining our church
-          </h1>
-          <div className={styles.frameParent}>
-            <FrameComponent11
-              findFulfillmentAndJoy="find fulfillment and joy"
-              httpsunsplashcomphotos3MW="/httpsunsplashcomphotos3mwdi5-6hrc@2x.png"
-            />
-            <FrameComponent4
-              httpsunsplashcomphotos3Xm="/httpsunsplashcomphotos3xmcv5mjzpw@2x.png"
-              sharedValues="shared values"
-            />
-          </div>
-          <FrameComponent11
-            findFulfillmentAndJoy="charity events"
-            httpsunsplashcomphotos3MW="/httpsunsplashcomphotos3mwdi5-6hrc-1@2x.png"
-            propWidth="unset"
-          />
-        </div>
-      </div>
-      <div className={styles.backgroundShape}>
-        <FrameComponent4
-          httpsunsplashcomphotos3Xm="/httpsunsplashcomphotos3xmcv5mjzpw-1@2x.png"
-          sharedValues="All are welcome"
-          propAlignSelf="unset"
-          propFlex="1"
-          propWidth="unset"
-        />
-      </div>
-      <div className={styles.primaryFrame}>
+      <div className={styles.teamSectionWrapper}>
         <div className={styles.teamSection}>
           <h1 className={styles.meetOurInspirational}>
             meet our Inspirational team
@@ -155,7 +110,7 @@ const ItemList = () => {
               <div className={styles.wrapperHttpswwwpexelscomWrapper}>
                 <div className={styles.wrapperHttpswwwpexelscom1}>
                   <img
-                    className={styles.httpswwwpexelscomphotopIcon1}
+                    className={styles.httpswwwpexelscomphotopIcon}
                     loading="lazy"
                     alt=""
                     src="/httpswwwpexelscomphotophotoofwomanwearingredtop3760737@2x.png"
@@ -167,7 +122,7 @@ const ItemList = () => {
                 <div className={styles.secretaryFrame}>
                   <div className={styles.secretaryFrame1}>
                     <div className={styles.agmiSecretary}>AGMI SECRETARY</div>
-                    <div className={styles.pastorFrame}>
+                    <div className={styles.footerBackgroundShape}>
                       <img
                         className={styles.facebookNegative1}
                         alt=""
@@ -197,15 +152,15 @@ const ItemList = () => {
                   src="/image-1@2x.png"
                 />
               </div>
-              <div className={styles.frameGroup}>
+              <div className={styles.frameParent}>
                 <div className={styles.nameWrapper}>
                   <h3 className={styles.name}>NAME</h3>
                 </div>
-                <div className={styles.frameContainer}>
+                <div className={styles.frameGroup}>
                   <div className={styles.pastorChurchWrapper}>
                     <div className={styles.pastorChurch}>Pastor, Church</div>
                   </div>
-                  <div className={styles.footerBackgroundShape}>
+                  <div className={styles.footerBackgroundShape1}>
                     <img
                       className={styles.facebookNegative2}
                       alt=""

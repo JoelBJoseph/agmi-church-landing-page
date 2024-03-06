@@ -50,25 +50,25 @@ body {
   --gap-xl: 1.25rem;
   --gap-0: 0rem;
   --gap-13xl: 2rem;
-  --gap-mini: 0.938rem;
   --gap-base: 1rem;
+  --gap-mini: 0.938rem;
   --gap-5xl: 1.5rem;
   --gap-xs: 0.75rem;
   --gap-5xs: 0.5rem;
   --gap-sm: 0.875rem;
-  --gap-37xl: 3.5rem;
   --gap-29xl: 3rem;
   --gap-45xl: 4rem;
-  --gap-21xl: 2.5rem;
+  --gap-24xl: 2.688rem;
+  --gap-2xl: 1.313rem;
   --gap-3xs: 0.625rem;
   --gap-8xs: 0.313rem;
   --gap-12xl: 1.938rem;
-  --gap-20xl: 2.438rem;
+  --gap-23xl: 2.625rem;
   --gap-109xl: 8rem;
   --gap-3xl: 1.375rem;
+  --gap-21xl: 2.5rem;
   --gap-62xl: 5.063rem;
   --gap-33xl: 3.25rem;
-  --gap-77xl: 6rem;
   --gap-7xl: 1.625rem;
 
   /* Paddings */
@@ -103,8 +103,8 @@ body {
   --padding-xs: 0.75rem;
   --padding-47xl: 4.125rem;
   --padding-25xl: 2.75rem;
-  --padding-21xl: 2.5rem;
-  --padding-7xs: 0.375rem;
+  --padding-18xl: 2.313rem;
+  --padding-4xs: 0.563rem;
   --padding-lg: 1.125rem;
   --padding-91xl: 6.875rem;
   --padding-36xl: 3.438rem;
@@ -114,7 +114,6 @@ body {
   --padding-58xl: 4.813rem;
   --padding-141xl: 10rem;
   --padding-85xl: 6.5rem;
-  --padding-90xl: 6.813rem;
   --padding-103xl: 7.625rem;
   --padding-42xl: 3.813rem;
   --padding-26xl: 2.813rem;
@@ -123,14 +122,15 @@ body {
   --padding-54xl: 4.563rem;
   --padding-75xl: 5.875rem;
   --padding-28xl: 2.938rem;
+  --padding-7xs: 0.375rem;
   --padding-5xs: 0.5rem;
-  --padding-4xs: 0.563rem;
   --padding-67xl: 5.375rem;
   --padding-77xl: 6rem;
   --padding-37xl: 3.5rem;
   --padding-43xl: 3.875rem;
   --padding-62xl: 5.063rem;
   --padding-34xl: 3.313rem;
+  --padding-21xl: 2.5rem;
   --padding-56xl: 4.688rem;
   --padding-78xl: 6.063rem;
   --padding-44xl: 3.938rem;
@@ -139,9 +139,10 @@ body {
   --padding-mid: 1.063rem;
   --padding-6xl: 1.563rem;
   --padding-10xs: 0.188rem;
-  --padding-48xl: 4.188rem;
+  --padding-80xl: 6.188rem;
   --padding-13xl: 2rem;
-  --padding-53xl: 4.5rem;
+  --padding-15xl: 2.125rem;
+  --padding-2xl: 1.313rem;
 
   /* Border radiuses */
   --br-xs: 12px;

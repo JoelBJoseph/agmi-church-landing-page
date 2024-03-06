@@ -46,7 +46,7 @@
   height: 0.375rem;
 }
 .circle,
-.icon1 {
+.icon {
   width: 1.25rem;
   z-index: 1;
 }
@@ -59,11 +59,11 @@
   box-sizing: border-box;
   height: 1.25rem;
 }
-.icon1 {
+.icon {
   height: 1.563rem;
   position: relative;
 }
-.icon {
+.messageFrame {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -83,19 +83,19 @@
   text-transform: uppercase;
   z-index: 1;
 }
-.contentInner,
-.iconParent {
+.quicklinksText,
+.quicklinksTextWrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.iconParent {
+.quicklinksText {
   align-self: stretch;
   flex: 1;
   gap: 0 1rem;
 }
-.contentInner {
+.quicklinksTextWrapper {
   width: 14rem;
   height: 4rem;
   padding: 0 var(--padding-11xs);
@@ -196,7 +196,7 @@
     line-height: 0.625rem;
   }
   .content {
-    gap: var(--gap-21xl);
+    gap: var(--gap-xl);
     padding-left: var(--padding-xl);
     box-sizing: border-box;
   }

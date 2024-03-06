@@ -10,7 +10,7 @@ const FrameComponent = () => {
   }, [navigate]);
 
   return (
-    <section className={styles.backgroundFrame}>
+    <section className={styles.backgroundParent}>
       <img className={styles.backgroundIcon} alt="" src="/background@2x.png" />
       <div className={styles.testimonialBackground}>
         <div className={styles.mainBackground} />

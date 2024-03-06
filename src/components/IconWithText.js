@@ -3,7 +3,7 @@ import styles from "./IconWithText.module.css";
 const IconWithText = ({ globalAcademy }) => {
   return (
     <div className={styles.iconWithText}>
-      <div className={styles.backgroundShape}>
+      <div className={styles.messageFrame}>
         <div className={styles.icon}>
           <div className={styles.circleShape} />
           <div className={styles.circle} />

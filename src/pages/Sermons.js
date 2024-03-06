@@ -20,7 +20,7 @@ const Sermons = () => {
     navigate("/about-us");
   }, [navigate]);
 
-  const onSermonsTextClick = useCallback(() => {
+  const onMinistryTextClick = useCallback(() => {
     navigate("/sermons");
   }, [navigate]);
 
@@ -58,7 +58,7 @@ const Sermons = () => {
         propPadding4="0rem 0rem 0rem var(--padding-xl)"
         onHOMETextClick={onHOMETextClick}
         onAboutUsTextClick={onAboutUsTextClick}
-        onSermonsTextClick={onSermonsTextClick}
+        onMinistryTextClick={onMinistryTextClick}
         onContactTextClick={onContactTextClick}
         onButton1Click={onButtonClick}
       />

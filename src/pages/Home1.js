@@ -1,8 +1,8 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import FrameComponent3 from "../components/FrameComponent3";
-import FrameComponent2 from "../components/FrameComponent2";
+import HomeHeader from "../components/HomeHeader";
+import TestimonialBackground from "../components/TestimonialBackground";
 import FrameComponent1 from "../components/FrameComponent1";
 import FrameComponent from "../components/FrameComponent";
 import Footer from "../components/Footer";
@@ -19,7 +19,7 @@ const Home = () => {
     navigate("/about-us");
   }, [navigate]);
 
-  const onSermonsTextClick = useCallback(() => {
+  const onMinistryTextClick = useCallback(() => {
     navigate("/sermons");
   }, [navigate]);
 
@@ -34,8 +34,8 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Navbar />
-      <FrameComponent3 />
-      <FrameComponent2 />
+      <HomeHeader />
+      <TestimonialBackground />
       <section className={styles.homeHeaderFrame}>
         <div className={styles.testimonialFrame}>
           <div className={styles.loveandcompassion}>
@@ -71,7 +71,7 @@ const Home = () => {
         propPadding4="0rem var(--padding-12xs) 0rem var(--padding-xl)"
         onHOMETextClick={onHOMETextClick}
         onAboutUsTextClick={onAboutUsTextClick}
-        onSermonsTextClick={onSermonsTextClick}
+        onMinistryTextClick={onMinistryTextClick}
         onContactTextClick={onContactTextClick}
         onButton1Click={onButtonClick}
       />

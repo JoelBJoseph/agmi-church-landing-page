@@ -25,7 +25,7 @@ const Navbar = () => {
     navigate("/about-us");
   }, [navigate]);
 
-  const onMinistryTextClick = useCallback(() => {
+  const onMinistryText1Click = useCallback(() => {
     navigate("/sermons");
   }, [navigate]);
 
@@ -36,8 +36,8 @@ const Navbar = () => {
   return (
     <header className={styles.navbar}>
       <div className={styles.background} />
-      <div className={styles.navbarInner}>
-        <div className={styles.agmiLogo1Parent}>
+      <div className={styles.logoInstanceWrapper}>
+        <div className={styles.logoInstance}>
           <img
             className={styles.agmiLogo1Icon}
             loading="lazy"
@@ -45,8 +45,8 @@ const Navbar = () => {
             src="/agmilogo-1@2x.png"
             onClick={onAgmiLogo1ImageClick}
           />
-          <div className={styles.frameWrapper}>
-            <div className={styles.frameParent}>
+          <div className={styles.navButtonInstance}>
+            <div className={styles.homeHeaderFrame}>
               <div className={styles.logoWrapper}>
                 <div className={styles.logo} onClick={onLogoContainerClick}>
                   <h1 className={styles.agmi}>AGMI</h1>
@@ -63,17 +63,19 @@ const Navbar = () => {
         </div>
       </div>
       <div className={styles.linksList}>
-        <div className={styles.dividerParent}>
+        <div className={styles.dividerLine}>
           <div className={styles.divider} />
-          <h3 className={styles.home} onClick={onHomeTextClick}>
+          <b className={styles.home} onClick={onHomeTextClick}>
             Home
-          </h3>
+          </b>
         </div>
-        <div className={styles.aboutUs} onClick={onAboutUsText2Click}>
+        <b className={styles.aboutUs} onClick={onAboutUsText2Click}>
           About us
-        </div>
-        <div className={styles.ministry} onClick={onMinistryTextClick}>
-          ministry
+        </b>
+        <div className={styles.ministryWrapper}>
+          <b className={styles.ministry} onClick={onMinistryText1Click}>
+            ministry
+          </b>
         </div>
       </div>
       <button className={styles.navButton} onClick={onNavButtonClick}>

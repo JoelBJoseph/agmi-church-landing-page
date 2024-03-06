@@ -83,7 +83,7 @@
     line-height: 3.188rem;
   }
   .testimonialFrame {
-    gap: 3.5rem 0;
+    gap: 1.75rem 0;
   }
   .homeHeaderFrame {
     padding-bottom: var(--padding-19xl);
@@ -96,6 +96,6 @@
     line-height: 2.375rem;
   }
   .quoteIconVector {
-    gap: 2rem 0;
+    gap: 1rem 0;
   }
 }

@@ -12,10 +12,10 @@ const Quicklinks = () => {
             kingdom of God belongs to such as these." - Mark 10:14
           </b>
         </div>
-        <div className={styles.contentInner}>
-          <div className={styles.iconParent}>
-            <div className={styles.icon}>
-              <div className={styles.icon1}>
+        <div className={styles.quicklinksTextWrapper}>
+          <div className={styles.quicklinksText}>
+            <div className={styles.messageFrame}>
+              <div className={styles.icon}>
                 <div className={styles.line} />
                 <div className={styles.circle} />
               </div>

@@ -23,7 +23,7 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.getInTouchWithUs {
+.agmiWrapper {
   height: 1.688rem;
   display: flex;
   flex-direction: column;
@@ -53,7 +53,7 @@
   text-transform: uppercase;
   text-align: center;
 }
-.contentLeft1 {
+.contentLeft {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -83,17 +83,16 @@
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
-.contentLeft2,
-.messageButtonB {
+.contentLeft1 {
   display: flex;
   flex-direction: row;
-}
-.contentLeft2 {
   align-items: center;
   justify-content: center;
   z-index: 1;
 }
-.messageButtonB {
+.contentLeftWrapper {
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-10xl);
@@ -105,7 +104,7 @@
   position: relative;
   object-fit: cover;
 }
-.quicklinks {
+.messageFillWrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -122,44 +121,44 @@
   align-self: stretch;
 }
 .agmicarmelgmailcomagmiingmailc,
-.quicklinksParent {
+.frameParent {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.quicklinksParent {
+.frameParent {
   flex-direction: row;
   align-items: center;
   gap: var(--gap-8xs);
   z-index: 1;
 }
-.contentLeft,
-.footer1 {
+.contentLeftParent,
+.frameWrapper {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.footer1 {
+.frameWrapper {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 var(--padding-10xl);
   font-size: var(--font-size-sm);
 }
-.contentLeft {
+.contentLeftParent {
   width: 12.125rem;
   flex-direction: column;
   gap: 0.75rem 0;
 }
-.quicklinks1 {
+.quicklinks {
   position: relative;
   line-height: 1.5rem;
 }
 .aboutUs,
 .contact,
 .home,
-.sermons {
+.ministry {
   position: relative;
   text-transform: uppercase;
   cursor: pointer;
@@ -285,7 +284,7 @@
   color: var(--color-gray-700);
 }
 .footer,
-.socialWrapper,
+.linksColumnParent,
 .subscription {
   display: flex;
   align-items: flex-start;
@@ -302,10 +301,10 @@
   font-size: var(--heading-h4-size);
 }
 .footer,
-.socialWrapper {
+.linksColumnParent {
   flex-direction: row;
 }
-.socialWrapper {
+.linksColumnParent {
   width: 53.313rem;
   justify-content: flex-start;
   gap: 0 7.188rem;
@@ -332,8 +331,8 @@
   }
 }
 @media screen and (max-width: 1100px) {
-  .socialWrapper {
-    gap: 0 7.188rem;
+  .linksColumnParent {
+    gap: 0 3.563rem;
   }
 }
 @media screen and (max-width: 750px) {
@@ -356,9 +355,9 @@
     box-sizing: border-box;
   }
   .subscription {
-    gap: var(--gap-13xl);
+    gap: var(--gap-base);
   }
-  .socialWrapper {
+  .linksColumnParent {
     flex-wrap: wrap;
   }
   .footer {
@@ -373,8 +372,8 @@
     font-size: var(--font-size-lgi);
     line-height: 1.625rem;
   }
-  .socialWrapper {
-    gap: 0 7.188rem;
+  .linksColumnParent {
+    gap: 0 1.813rem;
   }
   .footer {
     padding-left: var(--padding-xl);

@@ -17,7 +17,7 @@ const FooterParent = () => {
             <div className={styles.quicklinksText}>
               <div className={styles.messageFrame}>
                 <div className={styles.icon}>
-                  <div className={styles.line} />
+                  <div className={styles.addressDetails} />
                   <div className={styles.circle} />
                 </div>
               </div>

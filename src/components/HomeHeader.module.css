@@ -1,0 +1,172 @@
+.imageIcon {
+  width: 94.563rem;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -0.687rem;
+  max-height: 100%;
+  object-fit: cover;
+}
+.welcomeToOur {
+  width: 12.925rem;
+  display: inline-block;
+  z-index: 1;
+}
+.becomeAPart,
+.buttonText,
+.welcomeToOur {
+  position: relative;
+  text-transform: uppercase;
+}
+.becomeAPart {
+  margin: 0;
+  width: 37.319rem;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 5.125rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.buttonText {
+  font-size: var(--paragraph-size);
+  line-height: 1rem;
+  font-family: var(--paragraph);
+  color: var(--black);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-47xl) var(--padding-5xl)
+    var(--padding-45xl);
+  background-color: var(--primary);
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.button:hover {
+  background-color: var(--color-burlywood);
+}
+.givingBackSection,
+.missionStatement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.givingBackSection {
+  gap: 2rem 0;
+  font-size: var(--heading-h1-size);
+}
+.missionStatement {
+  gap: 1rem 0;
+  max-width: 100%;
+}
+.welcome {
+  width: 0.856rem;
+  height: 0.125rem;
+  position: relative;
+  border-top: 2px solid var(--primary);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.ministryLink {
+  height: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.aChanceFor {
+  width: 19.525rem;
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.aboutUsLink,
+.homeHeader,
+.homeHeader1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutUsLink {
+  flex-direction: row;
+  gap: 0 0.563rem;
+}
+.homeHeader,
+.homeHeader1 {
+  box-sizing: border-box;
+}
+.homeHeader1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-109xl) var(--padding-81xl);
+  position: relative;
+  gap: var(--gap-45xl);
+}
+.homeHeader {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-144xl);
+  text-align: left;
+  font-size: var(--paragraph-size);
+  color: var(--white);
+  font-family: var(--paragraph);
+}
+@media screen and (max-width: 1100px) {
+  .homeHeader1 {
+    gap: var(--gap-13xl);
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .homeHeader {
+    padding-bottom: var(--padding-87xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .becomeAPart {
+    font-size: var(--font-size-32xl);
+    line-height: 4.125rem;
+  }
+  .givingBackSection {
+    gap: 1rem 0;
+  }
+  .homeHeader1 {
+    padding-top: var(--padding-64xl);
+    padding-bottom: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .becomeAPart {
+    font-size: var(--font-size-19xl);
+    line-height: 3.063rem;
+  }
+  .homeHeader1 {
+    gap: var(--gap-base);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .homeHeader {
+    padding-bottom: var(--padding-50xl);
+    box-sizing: border-box;
+  }
+}

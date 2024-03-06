@@ -1,111 +1,82 @@
-.welcomeToOur {
+.httpsunsplashcomphotos3xIcon {
+  height: 20rem;
   flex: 1;
   position: relative;
-  text-transform: uppercase;
-  flex-shrink: 0;
-}
-.contactLink {
-  width: 13.125rem;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-sm) 0 0;
-  box-sizing: border-box;
-}
-.loveAndCompassion {
-  margin: 0;
-  align-self: stretch;
-  position: relative;
-  font-size: var(--heading-h2-size);
-  letter-spacing: -0.01em;
-  line-height: 4rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
-}
-.sermonsLink {
-  width: 36.063rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 1rem 0;
-  max-width: 100%;
-}
-.emailInput {
-  width: 50.906rem;
-  position: relative;
-  line-height: 1.5rem;
-  display: inline-block;
-  flex-shrink: 0;
-  max-width: 100%;
-}
-.inspirationalTeamFrame {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 0 var(--padding-base);
-  box-sizing: border-box;
-  max-width: 100%;
-  color: var(--color-gray-400);
-}
-.httpswwwpexelscomphotoaIcon {
-  height: 24rem;
-  width: 19.419rem;
-  position: relative;
-  border-radius: var(--br-11xl);
-  object-fit: cover;
-}
-.httpswwwpexelscomphotomIcon {
-  height: 32rem;
-  flex: 1;
-  position: relative;
-  border-radius: var(--br-13xl);
   max-width: 100%;
   overflow: hidden;
   object-fit: cover;
-  min-width: 16.813rem;
+  min-width: 20.313rem;
 }
-.httpswwwpexelscomphotopIcon {
-  height: 24rem;
-  width: 19.419rem;
-  position: relative;
-  border-radius: var(--br-11xl);
-  object-fit: cover;
-}
-.aboutUsLink,
-.nameFrame {
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-}
-.nameFrame {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0 1.625rem;
-}
-.aboutUsLink {
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 2rem 0;
-}
-.ourMission {
-  position: relative;
-  text-transform: uppercase;
-}
-.loremIpsumDolor,
-.strivingForA {
+.leadershipTraining,
+.thereIsA {
   position: relative;
   display: inline-block;
 }
-.strivingForA {
+.leadershipTraining {
   margin: 0;
-  width: 24.588rem;
-  font-size: var(--heading-h4-size);
+  width: 25.625rem;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 2.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  max-width: 100%;
+}
+.thereIsA {
+  width: 29.75rem;
+  font-size: var(--paragraph-size);
+  line-height: 1.5rem;
+  color: var(--color-gray-400);
+  white-space: pre-wrap;
+}
+.inputField,
+.inputFieldWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputField {
+  gap: 1rem 0;
+}
+.inputFieldWrapper {
+  padding: 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+  min-width: 29.75rem;
+}
+.httpsunsplashcomphotos3xParent,
+.subNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.httpsunsplashcomphotos3xParent {
+  flex: 1;
+  align-items: flex-end;
+  gap: 0 3rem;
+}
+.subNavigation {
+  width: 66.813rem;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-13xl) var(--padding-6xl);
+  box-sizing: border-box;
+}
+.httpsunsplashcomphotos3xIcon1 {
+  height: 20rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 20.313rem;
+}
+.allAreWelcome {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
   letter-spacing: -0.01em;
   line-height: 2.75rem;
   text-transform: uppercase;
@@ -113,117 +84,41 @@
   font-family: inherit;
 }
 .loremIpsumDolor {
-  width: 24.656rem;
-  line-height: 1.5rem;
-  color: var(--color-gray-400);
-}
-.instagramIconFrame {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 1rem 0;
-  min-width: 24.688rem;
-  max-width: 100%;
-}
-.whatWeDo {
+  width: 29.75rem;
   position: relative;
-  text-transform: uppercase;
-}
-.bringingPeaceAnd,
-.loremIpsumDolor1 {
-  width: 24.588rem;
-  position: relative;
-  display: inline-block;
-}
-.bringingPeaceAnd {
-  margin: 0;
-  font-size: var(--heading-h4-size);
-  letter-spacing: -0.01em;
-  line-height: 2.75rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
-}
-.loremIpsumDolor1 {
-  line-height: 1.5rem;
-  color: var(--color-gray-400);
-}
-.instagramIconFrame1 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem 0;
-  min-width: 24.688rem;
-}
-.homeLink,
-.instagramIconFrame1,
-.twitterIconFrame {
-  display: flex;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.twitterIconFrame {
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 0 1.625rem;
-  text-align: left;
-}
-.homeLink {
-  align-self: stretch;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 0 var(--padding-53xl);
-  box-sizing: border-box;
-  gap: 4rem 0;
   font-size: var(--paragraph-size);
-}
-.benefitsOfOur {
-  margin: 0;
-  width: 27rem;
-  position: relative;
-  font-size: inherit;
-  letter-spacing: -0.01em;
-  line-height: 4rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
+  line-height: 1.5rem;
+  color: var(--color-gray-400);
   display: inline-block;
-  max-width: 100%;
 }
-.frameParent {
-  align-self: stretch;
+.linksColumnFrame {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 0 var(--padding-13xl);
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
   box-sizing: border-box;
-  gap: 6rem 0;
-  text-align: left;
-  font-size: var(--heading-h4-size);
+  gap: 1rem 0;
+  min-width: 29.75rem;
+  max-width: 100%;
 }
-.backgroundShape,
-.containerFrame,
-.frameParent,
-.subheader {
+.frameFrame,
+.httpsunsplashcomphotos3xGroup {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   max-width: 100%;
 }
-.containerFrame {
+.httpsunsplashcomphotos3xGroup {
   flex: 1;
-  flex-direction: column;
   align-items: center;
-  gap: 4rem 0;
+  gap: 0 3rem;
 }
-.backgroundShape,
-.subheader {
+.frameFrame {
   width: 66.813rem;
-  flex-direction: row;
   align-items: flex-start;
-  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+  padding: 0 var(--padding-xl) var(--padding-80xl) var(--padding-6xl);
   box-sizing: border-box;
-}
-.backgroundShape {
-  padding: 0 var(--padding-xl) var(--padding-48xl) var(--padding-6xl);
 }
 .meetOurInspirational {
   margin: 0;
@@ -354,7 +249,7 @@
   position: relative;
   display: none;
 }
-.httpswwwpexelscomphotopIcon1 {
+.httpswwwpexelscomphotopIcon {
   height: 100%;
   width: 100%;
   z-index: 1;
@@ -414,7 +309,7 @@
 .instaFillIcon1 {
   object-fit: cover;
 }
-.pastorFrame {
+.footerBackgroundShape {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -535,7 +430,7 @@
 .instaFillIcon2 {
   object-fit: cover;
 }
-.footerBackgroundShape {
+.footerBackgroundShape1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -543,24 +438,24 @@
   padding: 0 var(--padding-12xs) 0 0;
   gap: 0 1.25rem;
 }
-.frameContainer,
 .frameGroup,
+.frameParent,
 .item2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.frameContainer {
+.frameGroup {
   align-items: flex-start;
   gap: 1rem 0;
   font-size: var(--paragraph-size);
   color: var(--color-gray-500);
 }
-.frameGroup,
+.frameParent,
 .item2 {
   align-items: center;
 }
-.frameGroup {
+.frameParent {
   gap: 0.5rem 0;
 }
 .item2 {
@@ -587,127 +482,89 @@
   align-items: center;
   gap: 4rem 0;
 }
-.itemList,
-.primaryFrame,
-.teamSection {
+.sectionTitle,
+.teamSection,
+.teamSectionWrapper {
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
 }
-.primaryFrame {
+.teamSectionWrapper {
   width: 59.938rem;
   flex-direction: row;
   align-items: flex-start;
   padding: 0 0 0 var(--padding-8xs);
   box-sizing: border-box;
+  text-align: center;
+  font-size: var(--heading-h2-size);
 }
-.itemList {
+.sectionTitle {
   flex: 1;
   flex-direction: column;
   align-items: center;
-  gap: 6rem 0;
-  text-align: center;
-  font-size: var(--heading-h2-size);
+  gap: 4rem 0;
+  text-align: left;
+  font-size: var(--heading-h4-size);
   color: var(--bl);
   font-family: var(--paragraph);
 }
-@media screen and (max-width: 1275px) {
-  .homeLink {
-    padding-bottom: var(--padding-28xl);
-    box-sizing: border-box;
-  }
-}
 @media screen and (max-width: 1100px) {
-  .instagramIconFrame,
-  .instagramIconFrame1 {
+  .inputFieldWrapper {
     flex: 1;
   }
-  .twitterIconFrame {
+  .httpsunsplashcomphotos3xParent {
     flex-wrap: wrap;
   }
-  .homeLink {
-    gap: 4rem 0;
+  .linksColumnFrame {
+    flex: 1;
   }
-  .frameParent {
-    gap: 6rem 0;
-  }
-  .containerFrame {
-    gap: 4rem 0;
-  }
+  .httpsunsplashcomphotos3xGroup,
   .socialMediaIcon {
     flex-wrap: wrap;
   }
+  .sectionTitle,
   .teamSection {
-    gap: 4rem 0;
-  }
-  .itemList {
-    gap: 6rem 0;
+    gap: 2rem 0;
   }
 }
 @media screen and (max-width: 750px) {
-  .loveAndCompassion {
-    font-size: var(--font-size-19xl);
-    line-height: 3.188rem;
-  }
-  .aboutUsLink {
-    gap: 2rem 0;
-  }
-  .strivingForA {
+  .leadershipTraining {
     font-size: var(--font-size-7xl);
     line-height: 2.188rem;
   }
-  .instagramIconFrame {
+  .inputFieldWrapper {
     min-width: 100%;
   }
-  .bringingPeaceAnd {
+  .httpsunsplashcomphotos3xParent {
+    gap: 0 1.5rem;
+  }
+  .allAreWelcome {
     font-size: var(--font-size-7xl);
     line-height: 2.188rem;
   }
-  .instagramIconFrame1 {
+  .linksColumnFrame {
     min-width: 100%;
   }
-  .homeLink {
-    gap: 4rem 0;
-    padding-bottom: var(--padding-12xl);
-    box-sizing: border-box;
-  }
-  .benefitsOfOur {
-    font-size: var(--font-size-19xl);
-    line-height: 3.188rem;
-  }
-  .frameParent {
-    gap: 6rem 0;
-  }
-  .containerFrame {
-    gap: 4rem 0;
+  .httpsunsplashcomphotos3xGroup {
+    gap: 0 1.5rem;
   }
   .meetOurInspirational {
     font-size: var(--font-size-19xl);
     line-height: 3.188rem;
   }
+  .sectionTitle,
   .teamSection {
-    gap: 4rem 0;
-  }
-  .itemList {
-    gap: 6rem 0;
+    gap: 1rem 0;
   }
 }
 @media screen and (max-width: 450px) {
-  .loveAndCompassion {
-    font-size: var(--font-size-10xl);
-    line-height: 2.375rem;
-  }
-  .bringingPeaceAnd,
-  .strivingForA {
+  .allAreWelcome,
+  .leadershipTraining {
     font-size: var(--font-size-lgi);
     line-height: 1.625rem;
   }
-  .benefitsOfOur {
-    font-size: var(--font-size-10xl);
-    line-height: 2.375rem;
-  }
-  .backgroundShape {
-    padding-bottom: var(--padding-25xl);
+  .frameFrame {
+    padding-bottom: var(--padding-45xl);
     box-sizing: border-box;
   }
   .meetOurInspirational {

@@ -1,212 +1,18 @@
-.background {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  margin: 0 !important;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-gray-100);
-}
-.agmiLogo1Icon {
-  height: 3.75rem;
-  width: 3.188rem;
-  position: relative;
-  object-fit: cover;
-  cursor: pointer;
-  z-index: 1;
-}
-.agmi {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  letter-spacing: -0.01em;
-  line-height: 2.063rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
-  white-space: nowrap;
-}
-.joseCarmelName,
-.logo {
-  display: flex;
-  flex-direction: row;
-}
-.logo {
-  overflow: hidden;
-  align-items: center;
-  justify-content: center;
-  padding: 0 0 var(--padding-12xs);
-  cursor: pointer;
-  z-index: 1;
-}
-.joseCarmelName {
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-lg) 0 0;
-}
-.abundantGraceMinistries {
-  position: relative;
-  font-size: var(--paragraph-size);
-  text-transform: uppercase;
-  white-space: nowrap;
-  cursor: pointer;
-  z-index: 1;
-}
-.joseCarmelNameParent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0.625rem 0;
-}
-.meetTeamFrame {
-  flex: 1;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 0 var(--padding-11xs);
-}
-.backgroundShape,
-.contentWrapper,
-.meetTeamFrame {
-  display: flex;
-  justify-content: flex-start;
-}
-.contentWrapper {
-  align-self: stretch;
-  flex-direction: row;
-  align-items: flex-end;
-  gap: 0 2.125rem;
-}
-.backgroundShape {
-  width: 20.313rem;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 0 var(--padding-8xs);
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.divider,
-.home {
-  position: relative;
-}
-.divider {
-  align-self: stretch;
-  width: 0;
-  opacity: 0.1;
-}
-.home {
-  flex: 1;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.logoFrame {
-  align-self: stretch;
-  flex: 0.661;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0 var(--padding-21xl) 0 0;
-  gap: 0 0.5rem;
-  text-align: right;
-}
-.aboutUs1,
-.ministry {
-  position: relative;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.aboutUs1 {
-  margin: 0;
-  flex: 1;
-  font-size: var(--heading-h5-size);
-  text-decoration: underline;
-  letter-spacing: -0.01em;
-  font-weight: 700;
-  font-family: inherit;
-  white-space: nowrap;
-}
-.ministry {
-  width: 6.625rem;
-  display: inline-block;
-  flex-shrink: 0;
-}
-.buttonText,
-.linksList {
-  font-size: var(--paragraph-size);
-}
-.linksList {
-  align-self: stretch;
-  width: 25.625rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-20xl);
-  max-width: 100%;
-  z-index: 1;
-  color: var(--color-gray-300);
-}
-.buttonText {
-  position: relative;
-  line-height: 1rem;
-  text-transform: uppercase;
-  font-family: var(--paragraph);
-  color: var(--black);
-  text-align: center;
-}
-.navButton {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-xl) var(--padding-26xl) var(--padding-xl)
-    var(--padding-29xl);
-  background-color: var(--primary);
-  border-radius: var(--br-xs);
-  backdrop-filter: blur(80px);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  z-index: 1;
-}
-.navButton:hover {
-  background-color: var(--color-burlywood);
-}
-.imageIcon,
-.navbar {
-  top: 0;
-  max-width: 100%;
-}
-.navbar {
-  align-self: stretch;
-  height: 5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 var(--padding-90xl) 0 var(--padding-103xl);
-  box-sizing: border-box;
-  position: sticky;
-  z-index: 99;
-  gap: var(--gap-xl);
-}
 .imageIcon {
   width: 100%;
   height: 100%;
   position: absolute;
   margin: 0 !important;
+  top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
-.aboutUs2,
+.aboutUs1,
 .servingTheWorld {
   position: relative;
   text-transform: uppercase;
@@ -241,16 +47,14 @@
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 var(--padding-109xl);
-  font-size: var(--paragraph-size);
-  color: var(--bl);
 }
 .aboutUs,
 .inputField,
-.mainMenu {
+.pageContent {
   display: flex;
   justify-content: flex-start;
 }
-.mainMenu {
+.pageContent {
   width: 70.75rem;
   flex-direction: row;
   align-items: flex-start;
@@ -267,61 +71,42 @@
   align-items: center;
   letter-spacing: normal;
   text-align: left;
-  font-size: var(--heading-h4-size);
-  color: var(--white);
+  font-size: var(--paragraph-size);
+  color: var(--bl);
   font-family: var(--paragraph);
 }
 @media screen and (max-width: 1275px) {
-  .mainMenu {
+  .pageContent {
     padding-bottom: var(--padding-35xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1100px) {
-  .abundantGraceMinistries {
-    display: none;
-  }
   .aboutUsHero {
     padding-left: var(--padding-36xl);
     padding-right: var(--padding-36xl);
     box-sizing: border-box;
   }
-  .mainMenu {
+  .pageContent {
     padding-bottom: var(--padding-16xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 750px) {
-  .navbar {
-    padding-left: var(--padding-42xl);
-    padding-right: var(--padding-35xl);
-    box-sizing: border-box;
-  }
   .servingTheWorld {
     font-size: var(--font-size-19xl);
     line-height: 3.188rem;
   }
   .inputField,
-  .mainMenu {
+  .pageContent {
     padding-bottom: var(--padding-64xl);
     box-sizing: border-box;
   }
-  .mainMenu {
+  .pageContent {
     padding-bottom: var(--padding-4xl);
   }
 }
 @media screen and (max-width: 450px) {
-  .contentWrapper {
-    gap: 0 2.125rem;
-  }
-  .linksList {
-    gap: var(--gap-20xl);
-  }
-  .navbar {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
   .servingTheWorld {
     font-size: var(--font-size-10xl);
     line-height: 2.375rem;

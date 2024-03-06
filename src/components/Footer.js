@@ -17,7 +17,7 @@ const Footer = ({
   propPadding4,
   onHOMETextClick,
   onAboutUsTextClick,
-  onSermonsTextClick,
+  onMinistryTextClick,
   onContactTextClick,
   onButton1Click,
 }) => {
@@ -27,25 +27,25 @@ const Footer = ({
     };
   }, [propPadding]);
 
-  const contentLeftStyle = useMemo(() => {
+  const frameDivStyle = useMemo(() => {
     return {
       width: propWidth,
     };
   }, [propWidth]);
 
-  const frameDivStyle = useMemo(() => {
+  const frameDiv1Style = useMemo(() => {
     return {
       padding: propPadding1,
     };
   }, [propPadding1]);
 
-  const messageButtonBStyle = useMemo(() => {
+  const frameDiv2Style = useMemo(() => {
     return {
       padding: propPadding2,
     };
   }, [propPadding2]);
 
-  const footer1Style = useMemo(() => {
+  const frameDiv3Style = useMemo(() => {
     return {
       padding: propPadding3,
     };
@@ -57,7 +57,7 @@ const Footer = ({
     };
   }, [propGap]);
 
-  const socialWrapperStyle = useMemo(() => {
+  const frameDiv4Style = useMemo(() => {
     return {
       width: propWidth1,
       gap: propGap1,
@@ -86,19 +86,19 @@ const Footer = ({
   return (
     <footer className={styles.footer} style={footerStyle}>
       <div className={styles.backgroundShape} />
-      <div className={styles.contentLeft} style={contentLeftStyle}>
-        <div className={styles.contentLeft1}>
-          <div className={styles.logoWrapper} style={frameDivStyle}>
+      <div className={styles.contentLeftParent} style={frameDivStyle}>
+        <div className={styles.contentLeft}>
+          <div className={styles.logoWrapper} style={frameDiv1Style}>
             <div className={styles.logo}>
-              <div className={styles.getInTouchWithUs}>
+              <div className={styles.agmiWrapper}>
                 <h1 className={styles.agmi}>AGMI</h1>
               </div>
             </div>
           </div>
           <div className={styles.copyrightAgmi2024}>© Copyright agmi 2024</div>
         </div>
-        <div className={styles.messageButtonB} style={messageButtonBStyle}>
-          <div className={styles.contentLeft2}>
+        <div className={styles.contentLeftWrapper} style={frameDiv2Style}>
+          <div className={styles.contentLeft1}>
             <div className={styles.addressNumber}>
               <div className={styles.ph9194466}>Ph: +91 94466 36378</div>
               <div className={styles.pOBox37Container}>
@@ -110,9 +110,9 @@ const Footer = ({
             </div>
           </div>
         </div>
-        <div className={styles.footer1} style={footer1Style}>
-          <div className={styles.quicklinksParent} style={groupDivStyle}>
-            <div className={styles.quicklinks}>
+        <div className={styles.frameWrapper} style={frameDiv3Style}>
+          <div className={styles.frameParent} style={groupDivStyle}>
+            <div className={styles.messageFillWrapper}>
               <img
                 className={styles.messageFillIcon}
                 loading="lazy"
@@ -129,10 +129,10 @@ const Footer = ({
           </div>
         </div>
       </div>
-      <div className={styles.socialWrapper} style={socialWrapperStyle}>
+      <div className={styles.linksColumnParent} style={frameDiv4Style}>
         <div className={styles.linksColumn} style={linksColumnStyle}>
           <div className={styles.linksColumn1}>
-            <div className={styles.quicklinks1}>Quicklinks</div>
+            <div className={styles.quicklinks}>Quicklinks</div>
             <div className={styles.linksList}>
               <div className={styles.home} onClick={onHOMETextClick}>
                 HOME
@@ -140,8 +140,8 @@ const Footer = ({
               <div className={styles.aboutUs} onClick={onAboutUsTextClick}>
                 About us
               </div>
-              <div className={styles.sermons} onClick={onSermonsTextClick}>
-                Sermons
+              <div className={styles.ministry} onClick={onMinistryTextClick}>
+                ministry
               </div>
               <div className={styles.contact} onClick={onContactTextClick}>
                 contact

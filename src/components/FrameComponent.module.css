@@ -95,7 +95,7 @@
   height: 30rem;
   z-index: 1;
 }
-.backgroundFrame {
+.backgroundParent {
   margin-left: -1.187rem;
   width: 96.313rem;
   height: 46rem;
